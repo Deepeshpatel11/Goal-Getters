@@ -1,5 +1,6 @@
 // Global Variables for quiz
-
+let questions = []; // Will hold the quiz questions
+let currentQuestionIndex = 0; // Tracks the current question number
 
 /**
  * Function to start the quiz from index.html 
