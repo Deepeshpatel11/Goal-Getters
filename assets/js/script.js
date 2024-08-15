@@ -71,15 +71,22 @@ function loadNextQuestion() {
 /**
  * Function to check the user's answer and update the score
  */
-function checkAnswer() {
-
+function checkAnswer(isCorrect) {
+    if (isCorrect) {
+        score++;
+    }
+    document.getElementById('score').textContent = score;
+    loadNextQuestion();
 }
 
 /**
  * Function to end the quiz and display the final score
  */
 function endQuiz() {
-
+    clearInterval(timerInterval); // Stop the timer
+    document.getElementById('quiz-container').style.display = 'none';
+    document.getElementById('result-container').style.display = 'block';
+    document.getElementById('final-score').textContent = score;
 }
 
 /**
