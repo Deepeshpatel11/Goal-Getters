@@ -1,6 +1,9 @@
 // Global Variables for quiz
 let questions = []; // Will hold the quiz questions
 let currentQuestionIndex = 0; // Tracks the current question number
+let score = 0; // Tracks the user's score
+let timeLeft = 15 * 60; // 15 minutes in seconds
+let timerInterval; // Will hold the timer interval ID
 
 /**
  * Function to start the quiz from index.html 
@@ -20,7 +23,25 @@ function startQuiz(category) {
  * Function to load questions and start the quix in quiz.html
  */
 function loadQuestions() {
+    const category = localStorage.getItem('quizCategory');
+    const username = localStorage.getItem('quizUsername');
+    document.getElementById('category-title').textContent = `${category} - Player: ${username}`;
 
+
+    fetch('assets/data/questions.json')
+        .then(response => response.json())
+        .then(data => {
+            const selectedCategory = data.find(q => q.category === category);
+            if (selectedCategory) {
+                questions = selectedCategory.questions;
+                loadNextQuestion(); // Load the first question initially
+                startTimer(); // Start the quiz timer
+            }
+        })
+        .catch(error => {
+            console.error('Error loading questions:', error);
+            window.location.href = '404.html'; // Redirect to the 404 page if there's an error loading questions
+        });
 }
 
 /**
