@@ -118,5 +118,5 @@ function displayTime() {
  * Function to return to the main menu from quiz.html
  */
 function returnToMainMenu() {
-
+    window.location.href = 'index.html';
 }
