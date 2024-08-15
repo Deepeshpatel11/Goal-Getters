@@ -17,9 +17,10 @@ header {
     text-align: center;
     color: white;
 }
+
 header h1 {
     /* Remove default margin */
-    margin: 0; 
+    margin: 0;
 }
 
 header nav ul {
@@ -27,7 +28,7 @@ header nav ul {
     list-style: none;
     padding: 0;
     /* Space above the nav */
-    margin: 10px 0 0; 
+    margin: 10px 0 0;
     /* Flexbox for horizontal layout */
     display: flex;
     justify-content: center;
@@ -35,7 +36,12 @@ header nav ul {
 
 header nav ul li {
     /* Space between nav items */
-    margin: 5px 10px; 
+    margin: 5px 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 /* Footer Styles */
