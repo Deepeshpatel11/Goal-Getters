@@ -44,6 +44,10 @@ header nav ul li a {
     text-decoration: none;
 }
 
+header nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover for emphasis */
+}
+
 /* Footer Styles */
 footer {
     background-color: #1e90ff;
