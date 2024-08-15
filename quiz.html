@@ -18,11 +18,21 @@
         </nav>
     </header>
     <main class="container">
-        <h2>Quiz</h2>
-        <p>The quiz will begin shortly. Stay tuned!</p>
+        <h2 id="category-title">Quiz</h2>
+        <div id="timer-container">
+            <p>Time Left: <span id="timer">15:00</span></p>
+        </div>
+        <div id="quiz-container">
+            <p id="question-text">Question will appear here</p>
+            <div id="options-container"></div> <!-- Placeholder for quiz options -->
+        </div>
+        <div id="score-container">
+            <p>Score: <span id="score">0</span></p>
+        </div>
     </main>
     <footer>
         <p>© 2024 Football Quiz. All rights reserved.</p>
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
