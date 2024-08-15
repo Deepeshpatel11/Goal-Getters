@@ -48,6 +48,26 @@ header nav ul li a:hover {
     text-decoration: underline; /* Underline on hover for emphasis */
 }
 
+/* Main Content Container */
+.container {
+    /* Semi-transparent background for readability */
+    background-color: rgba(0, 0, 0, 0.7); 
+    /* Padding inside the container */
+    padding: 15px; 
+    border-radius: 10px;
+    /* Center align text */
+    text-align: center; 
+    /* Responsive width */
+    width: 90%; 
+    /* Limit max width on small screens */
+    max-width: 500px;
+    /* Subtle shadow for depth */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    /* Center horizontally with space for header and footer */
+    margin: auto auto; 
+    position: relative;
+}
+
 /* Footer Styles */
 footer {
     background-color: #1e90ff;
@@ -58,3 +78,8 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+footer p {
+    margin: 5px 0;
+}
+
