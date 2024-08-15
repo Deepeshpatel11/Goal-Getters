@@ -1,0 +1,23 @@
+/* General Styles for All Pages */
+body {
+    margin: 0;
+    /* Change the font using google fonts later */
+    font: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #1e90ff; 
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1e90ff;
+    padding: 10px;
+    text-align: center;
+}
