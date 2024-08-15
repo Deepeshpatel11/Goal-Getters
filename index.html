@@ -20,9 +20,18 @@
         </nav>
     </header>
     <main class="container">
-        <h2>Welcome to the Football Quiz!</h2>
-        <p>Test your football knowledge across various categories. Click on "How to Play" to get started!</p>
+        <h2>Select a quiz category:</h2>
+        <p>Enter your name to start:</p>
+        <input type="text" id="username" placeholder="Your Name" required>
+        <div id="quiz-selection">
+            <button onclick="startQuiz('English Football')">English Football</button>
+            <button onclick="startQuiz('Spanish Football')">Spanish Football</button>
+            <button onclick="startQuiz('Italian Football')">Italian Football</button>
+            <button onclick="startQuiz('Continental Football')">Continental Football</button>
+        </div>
     </main>
+    <script src="assets/js/script.js"></script>
+    
     <footer>
         <p>© 2024 Football Quiz. All rights reserved.</p>
     </footer>
