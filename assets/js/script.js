@@ -120,3 +120,9 @@ function displayTime() {
 function returnToMainMenu() {
     window.location.href = 'index.html';
 }
+
+
+/** 
+ * Initialize the quiz on page load
+ */
+window.onload = loadQuestions;
