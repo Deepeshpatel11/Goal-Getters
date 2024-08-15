@@ -48,7 +48,24 @@ function loadQuestions() {
  * Function to load next question
  */
 function loadNextQuestion() {
+    if (currentQuestionIndex < questions.length) {
+        const questionData = questions[currentQuestionIndex];
+        document.getElementById('question-text').textContent = questionData.question;
 
+        const optionsContainer = document.getElementById('options-container');
+        optionsContainer.innerHTML = ''; // Clear previous options
+
+        questionData.options.forEach(option => {
+            const button = document.createElement('button');
+            button.textContent = option;
+            button.onclick = () => checkAnswer(option === questionData.answer);
+            optionsContainer.appendChild(button);
+        });
+
+        currentQuestionIndex++;
+    } else {
+        endQuiz(); // End the quiz if no more questions are left
+    }
 }
 
 /**
