@@ -69,14 +69,25 @@ function endQuiz() {
  * Function to start the quiz timer
  */
 function startTimer() {
+    timerInterval = setInterval(() => {
+        timeLeft--;
+        displayTime();
 
+        if (timeLeft <= 0) {
+            clearInterval(timerInterval);
+            endQuiz(); // End the quiz when time runs out
+        }
+    }, 1000); // Update every second
 }
 
 /**
  * Function to display the remaining time
  */
-function displayTimer() {
-
+function displayTime() {
+    const minutes = Math.floor(timeLeft / 60);
+    const seconds = timeLeft % 60;
+    const timerDisplay = document.getElementById('timer');
+    timerDisplay.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
 }
 
 /**
