@@ -20,7 +20,7 @@ function startQuiz(category) {
 }
 
 /**
- * Function to load questions and start the quix in quiz.html
+ * Function to load questions and start the quiz in quiz.html
  */
 function loadQuestions() {
     const category = localStorage.getItem('quizCategory');
@@ -87,6 +87,18 @@ function endQuiz() {
     document.getElementById('quiz-container').style.display = 'none';
     document.getElementById('result-container').style.display = 'block';
     document.getElementById('final-score').textContent = score;
+
+    // Save the high score to localStorage
+    const category = localStorage.getItem('quizCategory');
+    const username = localStorage.getItem('quizUsername');
+    const highScoreKey = `${category} Highscore`;
+    const highScoreNameKey = `${category} HighscoreName`;
+    const highScore = parseInt(localStorage.getItem(highScoreKey)) || 0;
+
+    if (score > highScore) {
+        localStorage.setItem(highScoreKey, score);
+        localStorage.setItem(highScoreNameKey, username);
+    }
 }
 
 /**

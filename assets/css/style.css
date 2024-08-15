@@ -83,3 +83,26 @@ footer p {
     margin: 5px 0;
 }
 
+/* High Score Display Styles */
+#quiz-selection p {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#quiz-selection button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#quiz-selection button:hover {
+    background-color: #1c86ee;
+}
