@@ -83,6 +83,21 @@ button {
     font-size: 14px;
 }
 
+button:hover {
+    /* Button to go dark blue when hovered on */
+    background-color: #1c86ee;;
+}
+
+/* Tomato color for quit button */
+#quit-btn {
+    background-color: #ff6347; 
+}
+
+/* Darker tomato color on hover */
+#quit-btn:hover {
+    background-color: #ff4500; 
+}
+
 /* Footer Styles */
 footer {
     background-color: #1e90ff;
