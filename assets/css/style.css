@@ -7,7 +7,6 @@ body {
     color: #333;
     display: flex;
     flex-direction: column;
-    /* Ensure the body takes up the full viewport height */
     min-height: 100vh;
 }
 
@@ -20,23 +19,18 @@ header {
 }
 
 header h1 {
-    /* Remove default margin */
     margin: 0;
 }
 
 header nav ul {
-    /* Remove bullet points */
     list-style: none;
     padding: 0;
-    /* Space above the nav */
     margin: 10px 0 0;
-    /* Flexbox for horizontal layout */
     display: flex;
     justify-content: center;
 }
 
 header nav ul li {
-    /* Space between nav items */
     margin: 5px 10px;
 }
 
@@ -46,10 +40,10 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    /* Underline on hover for emphasis */
     text-decoration: underline;
 }
 
+/* Main Content Text Styling */
 h2 {
     font-size: 1.8em;
     color: #fff;
@@ -88,41 +82,40 @@ a:hover {
 
 /* Main Content Container */
 .container {
-    /* Semi-transparent background for readability */
     background-color: rgba(0, 0, 0, 0.7);
-    /* Padding inside the container */
     padding: 15px;
     border-radius: 10px;
-    /* Center align text */
     text-align: center;
-    /* Responsive width */
     width: 90%;
-    /* Limit max width on small screens */
     max-width: 500px;
-    /* Subtle shadow for depth */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    /* Center horizontally with space for header and footer */
     margin: auto auto;
     position: relative;
 }
 
-/* Button Styles */
-button {
-    /* Default blue background for buttons to keep styling consistent */
+/* Button Container for Index Page */
+#quiz-selection {
+    display: flex;
+    flex-direction: column;
+    /* Center the buttons horizontally */
+    align-items: center;
+}
+
+#quiz-selection button {
+    width: 100%;
+    max-width: 300px;
+    /* Limit button width on wider screens */
+    margin: 10px 0;
+    padding: 10px;
     background-color: #1e90ff;
-    /* white color for text */
     color: #fff;
     border: none;
-    padding: 10px;
-    /* Margin between buttons */
-    margin: 10px 0;
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
 }
 
-button:hover {
-    /* Button to go dark blue when hovered on */
+#quiz-selection button:hover {
     background-color: #1c86ee;
 }
 
@@ -131,7 +124,6 @@ button:hover {
     background-color: #ff6347;
 }
 
-/* Darker tomato color on hover */
 #quit-btn:hover {
     background-color: #ff4500;
 }
@@ -154,138 +146,91 @@ footer p {
 /* High Score Display Styles */
 #quiz-selection p {
     font-size: 0.9em;
-    color: #666;
+    color: #4bef10;
     margin-top: 5px;
     margin-bottom: 15px;
-}
-
-#quiz-selection button {
-    display: block;
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px;
-    background-color: #1e90ff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#quiz-selection button:hover {
-    background-color: #1c86ee;
 }
 
 /* Creating color scheme themes so that depending on which quiz is selected; color changes */
 /* Theme for English Football (White and Red - English Flag Colors) */
 .theme-english {
-    /* White background */
     background-color: #ffffff;
-    /* Red text color */
     color: #d40000;
 }
 
 .theme-english .container {
-    /* Semi-transparent white background */
     background-color: rgba(255, 255, 255, 0.8);
-    /* Red text color */
     color: #d40000;
 }
 
 .theme-english button {
-    /* Red buttons */
     background-color: #d40000;
-    /* White text color */
     color: #ffffff;
 }
 
 .theme-english button:hover {
-    /* Darker red on hover */
     background-color: #a00000;
 }
 
 /* Theme for Spanish Football (Red and Yellow - Spanish Flag Colors) */
 .theme-spanish {
-    /* Red background */
     background-color: #c60b1e;
-    /* Yellow text color */
     color: #ffc400;
 }
 
 .theme-spanish .container {
-    /* Semi-transparent red background */
     background-color: rgba(198, 11, 30, 0.8);
-    /* Yellow text color */
     color: #ffc400;
 }
 
 .theme-spanish button {
-    /* Yellow buttons */
     background-color: #ffc400;
-    /* Red text color */
     color: #c60b1e;
 }
 
 .theme-spanish button:hover {
-    /* Darker yellow on hover */
     background-color: #e0a800;
 }
 
 /* Theme for Italian Football (Green, White, and Red - Italian Flag Colors) */
-
 .theme-italian {
-    /* Green background */
     background-color: #008C45;
-    /* White text color */
     color: #ffffff;
 }
 
 .theme-italian .container {
-    /* Semi-transparent green background */
     background-color: rgba(0, 140, 69, 0.8);
-    /* White text color */
     color: #ffffff;
 }
 
 .theme-italian button {
-    /* Red buttons */
     background-color: #CD212A;
-    /* White text color */
     color: #ffffff;
 }
 
 .theme-italian button:hover {
-    /* Darker red on hover */
     background-color: #a00a18;
 }
 
 /* Theme for Continental Football (Blue and Yellow - EU Colors) */
-
 .theme-continental {
-    /* Blue background */
     background-color: #003399;
-    /* Yellow text color */
     color: #ffcc00;
 }
 
 .theme-continental .container {
-    /* Semi-transparent blue background */
     background-color: rgba(0, 51, 153, 0.8);
-    /* Yellow text color */
     color: #ffcc00;
 }
 
 .theme-continental button {
-    /* Yellow buttons */
     background-color: #ffcc00;
-    /* Blue text color */
     color: #003399;
 }
 
 .theme-continental button:hover {
-    /* Darker yellow on hover */
     background-color: #e6b800;
 }
-
 
 /* Media Queries for Larger Screens widths above 768px */
 @media (min-width: 768px) {
@@ -293,11 +238,18 @@ footer p {
         font-size: 2em;
     }
 
-    #quiz-selection button,
-    .container a.button,
-    button {
-        font-size: 16px;
+    #quiz-selection {
+        /* Arrange buttons in a row on wider screens */
+        flex-direction: column;
+        /* Center the buttons in the container */
+        justify-content: center;
+    }
+
+    #quiz-selection button {
         width: auto;
+        /* Adjust margin for horizontal layout */
+        margin: 10px 15px;
+        font-size: 16px;
     }
 
     .container {
@@ -324,9 +276,7 @@ footer p {
         font-size: 1.2em;
     }
 
-    #quiz-selection button,
-    .container a.button,
-    button {
+    #quiz-selection button {
         font-size: 18px;
     }
 
