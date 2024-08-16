@@ -51,7 +51,9 @@ h2 {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-p, ul, li {
+p,
+ul,
+li {
     font-size: 1.1em;
     color: #f0f0f0;
     margin-bottom: 15px;
@@ -156,7 +158,8 @@ footer p {
 }
 
 /* Option Buttons/Divs */
-#options-container button, #options-container div {
+#options-container button,
+#options-container div {
     background-color: #1e90ff;
     color: #fff;
     border: none;
@@ -172,7 +175,8 @@ footer p {
     transition: background-color 0.3s, transform 0.3s;
 }
 
-#options-container button:hover, #options-container div:hover {
+#options-container button:hover,
+#options-container div:hover {
     background-color: #1c86ee;
     transform: scale(1.05);
 }
@@ -198,12 +202,14 @@ footer p {
     color: #d40000;
 }
 
-.theme-english button {
+/* Style options specifically for the English Football theme */
+.theme-english #options-container button {
     background-color: #d40000;
     color: #ffffff;
+    border: 2px solid #d40000;
 }
 
-.theme-english button:hover {
+.theme-english #options-container button:hover {
     background-color: #a00000;
 }
 
@@ -227,12 +233,14 @@ footer p {
     color: #ffc400;
 }
 
-.theme-spanish button {
+/* Style options specifically for the Spanish Football theme */
+.theme-spanish #options-container button {
     background-color: #ffc400;
     color: #c60b1e;
+    border: 2px solid #ffc400;
 }
 
-.theme-spanish button:hover {
+.theme-spanish #options-container button:hover {
     background-color: #e0a800;
 }
 
@@ -253,15 +261,17 @@ footer p {
 .theme-italian .container li,
 .theme-italian .container a {
     /* White text color for Italian theme */
-    color: #ffffff; 
-}
-
-.theme-italian button {
-    background-color: #CD212A;
     color: #ffffff;
 }
 
-.theme-italian button:hover {
+/* Style options specifically for the Italian Football theme */
+.theme-italian #options-container button {
+    background-color: #CD212A;
+    color: #ffffff;
+    border: 2px solid #CD212A;
+}
+
+.theme-italian #options-container button:hover {
     background-color: #a00a18;
 }
 
@@ -282,15 +292,17 @@ footer p {
 .theme-continental .container li,
 .theme-continental .container a {
     /* Yellow text color for Continental theme */
-    color: #ffcc00; 
+    color: #ffcc00;
 }
 
-.theme-continental button {
+/* Style options specifically for the Continental Football theme */
+.theme-continental #options-container button {
     background-color: #ffcc00;
     color: #003399;
+    border: 2px solid #ffcc00;
 }
 
-.theme-continental button:hover {
+.theme-continental #options-container button:hover {
     background-color: #b69510f0;
 }
 
@@ -316,10 +328,18 @@ footer p {
         margin: 15px 0;
     }
 
-    #options-container button, #options-container div {
-        max-width: 500px;
-        padding: 15px;
-        font-size: 1.2em;
+    #options-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #options-container button,
+    #options-container div {
+        margin: 10px;
+        width: calc(50% - 20px);
+        /* Adjust width for two items per row */
+        max-width: 300px;
     }
 }
 
@@ -344,4 +364,6 @@ footer p {
     button {
         margin: 20px 0;
     }
+
+    
 }
