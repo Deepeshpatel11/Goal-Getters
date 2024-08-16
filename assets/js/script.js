@@ -34,7 +34,7 @@ function loadQuestions() {
         .then(data => {
             const selectedCategory = data.find(q => q.category === category);
             if (selectedCategory) {
-                questions = selectedCategory.questions;
+                questions = shuffleArray(selectedCategory.questions); // Shuffle the questions
                 loadNextQuestion(); // Load the first question initially
                 startTimer(); // Start the quiz timer
             }
@@ -78,7 +78,10 @@ function loadNextQuestion() {
         const optionsContainer = document.getElementById('options-container');
         optionsContainer.innerHTML = ''; // Clear previous options
 
-        questionData.options.forEach(option => {
+        // Shuffle options before displaying them
+        const shuffledOptions = shuffleArray(questionData.options);
+        
+        shuffledOptions.forEach(option => {
             const button = document.createElement('button');
             button.textContent = option;
             button.onclick = () => checkAnswer(option === questionData.answer);
@@ -164,6 +167,17 @@ function displayTime() {
  */
 function returnToMainMenu() {
     window.location.href = 'index.html';
+}
+
+/**
+ * Utility function to shuffle an array
+ */
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
 }
 
 /** 

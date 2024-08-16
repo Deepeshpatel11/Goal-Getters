@@ -312,6 +312,12 @@ footer p {
         font-size: 2em;
     }
 
+    p,
+    ul,
+    li {
+        font-size: 1.5em;
+    }
+
     #quiz-selection button {
         /* Maintain full width on larger screens */
         width: 100%;
@@ -349,6 +355,12 @@ footer p {
         font-size: 2.5em;
     }
 
+    p,
+    ul,
+    li {
+        font-size: 2em;
+    }
+
     .container {
         max-width: 800px;
     }
@@ -365,5 +377,5 @@ footer p {
         margin: 20px 0;
     }
 
-    
+
 }
