@@ -45,6 +45,27 @@ function loadQuestions() {
 }
 
 /**
+ * Function to apply the theme based on the quiz category
+ */
+function applyTheme(category) {
+    const body = document.body;
+
+    // Clear any existing theme classes
+    body.classList.remove('theme-english', 'theme-spanish', 'theme-italian', 'theme-continental');
+
+    // Apply the appropriate theme class
+    if (category === 'English Football') {
+        body.classList.add('theme-english');
+    } else if (category === 'Spanish Football') {
+        body.classList.add('theme-spanish');
+    } else if (category === 'Italian Football') {
+        body.classList.add('theme-italian');
+    } else if (category === 'Continental Football') {
+        body.classList.add('theme-continental');
+    }
+}
+
+/**
  * Function to load next question
  */
 function loadNextQuestion() {

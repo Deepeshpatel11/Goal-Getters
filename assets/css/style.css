@@ -45,26 +45,27 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover for emphasis */
+    text-decoration: underline;
+    /* Underline on hover for emphasis */
 }
 
 /* Main Content Container */
 .container {
     /* Semi-transparent background for readability */
-    background-color: rgba(0, 0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.7);
     /* Padding inside the container */
-    padding: 15px; 
+    padding: 15px;
     border-radius: 10px;
     /* Center align text */
-    text-align: center; 
+    text-align: center;
     /* Responsive width */
-    width: 90%; 
+    width: 90%;
     /* Limit max width on small screens */
     max-width: 500px;
     /* Subtle shadow for depth */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     /* Center horizontally with space for header and footer */
-    margin: auto auto; 
+    margin: auto auto;
     position: relative;
 }
 
@@ -90,12 +91,12 @@ button:hover {
 
 /* Tomato color for quit button */
 #quit-btn {
-    background-color: #ff6347; 
+    background-color: #ff6347;
 }
 
 /* Darker tomato color on hover */
 #quit-btn:hover {
-    background-color: #ff4500; 
+    background-color: #ff4500;
 }
 
 /* Footer Styles */
@@ -137,33 +138,145 @@ footer p {
     background-color: #1c86ee;
 }
 
+/* Creating color scheme themes so that depending on which quiz is selected; color changes */
+/* Theme for English Football (White and Red - English Flag Colors) */
+.theme-english {
+    /* White background */
+    background-color: #ffffff;
+    /* Red text color */
+    color: #d40000;
+}
+
+.theme-english .container {
+    /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Red text color */
+    color: #d40000;
+}
+
+.theme-english button {
+    /* Red buttons */
+    background-color: #d40000;
+    /* White text color */
+    color: #ffffff;
+}
+
+.theme-english button:hover {
+    /* Darker red on hover */
+    background-color: #a00000;
+}
+
+/* Theme for Spanish Football (Red and Yellow - Spanish Flag Colors) */
+.theme-spanish {
+    /* Red background */
+    background-color: #c60b1e; 
+    /* Yellow text color */
+    color: #ffc400; 
+}
+
+.theme-spanish .container {
+    /* Semi-transparent red background */
+    background-color: rgba(198, 11, 30, 0.8); 
+    /* Yellow text color */
+    color: #ffc400; 
+}
+
+.theme-spanish button {
+    /* Yellow buttons */
+    background-color: #ffc400; 
+    /* Red text color */
+    color: #c60b1e; 
+}
+
+.theme-spanish button:hover {
+    /* Darker yellow on hover */
+    background-color: #e0a800; 
+}
+
+/* Theme for Italian Football (Green, White, and Red - Italian Flag Colors) */
+
+.theme-italian {
+    /* Green background */
+    background-color: #008C45; 
+    /* White text color */
+    color: #ffffff; 
+}
+
+.theme-italian .container {
+    /* Semi-transparent green background */
+    background-color: rgba(0, 140, 69, 0.8); 
+    /* White text color */
+    color: #ffffff;
+}
+
+.theme-italian button {
+    /* Red buttons */
+    background-color: #CD212A; 
+    /* White text color */
+    color: #ffffff; 
+}
+
+.theme-italian button:hover {
+    /* Darker red on hover */
+    background-color: #a00a18; 
+}
+
+/* Theme for Continental Football (Blue and Yellow - EU Colors) */
+
+.theme-continental {
+    /* Blue background */
+    background-color: #003399; 
+    /* Yellow text color */
+    color: #ffcc00; 
+}
+
+.theme-continental .container {
+    /* Semi-transparent blue background */
+    background-color: rgba(0, 51, 153, 0.8); 
+    /* Yellow text color */
+    color: #ffcc00; 
+}
+
+.theme-continental button {
+    /* Yellow buttons */
+    background-color: #ffcc00; 
+    /* Blue text color */
+    color: #003399; 
+}
+
+.theme-continental button:hover {
+    /* Darker yellow on hover */
+    background-color: #e6b800; 
+}
+
+
 /* Media Queries for Larger Screens widths above 768px */
 @media (min-width: 768px) {
     header h1 {
-        font-size: 2em; 
+        font-size: 2em;
     }
 
     #quiz-selection button,
     .container a.button,
     button {
         font-size: 16px;
-        width: auto; 
+        width: auto;
     }
 
     .container {
-        padding: 20px; 
-        max-width: 600px; 
+        padding: 20px;
+        max-width: 600px;
     }
 
     button {
-        margin: 15px 0; 
+        margin: 15px 0;
     }
 }
 
 /* Media Queries for Larger Screens widths above 1024px */
 @media (min-width: 1024px) {
     header h1 {
-        font-size: 2.5em; 
+        font-size: 2.5em;
     }
 
     .container {
@@ -171,16 +284,16 @@ footer p {
     }
 
     footer p {
-        font-size: 1.2em; 
+        font-size: 1.2em;
     }
 
     #quiz-selection button,
     .container a.button,
     button {
-        font-size: 18px; 
+        font-size: 18px;
     }
 
     button {
-        margin: 20px 0; 
+        margin: 20px 0;
     }
 }
