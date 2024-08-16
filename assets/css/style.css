@@ -68,6 +68,14 @@ header nav ul li a:hover {
     position: relative;
 }
 
+/* Button Styles */
+button {
+    /* Default blue background for buttons to keep styling consistant */
+    background-color: #1e90ff;
+    /* white color for text */
+    color: #fff;
+}
+
 /* Footer Styles */
 footer {
     background-color: #1e90ff;
