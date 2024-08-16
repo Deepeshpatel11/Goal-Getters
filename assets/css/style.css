@@ -147,6 +147,36 @@ footer p {
     margin-bottom: 15px;
 }
 
+/* Options Container */
+#options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+/* Option Buttons/Divs */
+#options-container button, #options-container div {
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
+    cursor: pointer;
+    font-size: 1.1em;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#options-container button:hover, #options-container div:hover {
+    background-color: #1c86ee;
+    transform: scale(1.05);
+}
+
 /* Theme-Specific Text Styling */
 /* Theme for English Football (White and Red - English Flag Colors) */
 .theme-english {
@@ -271,7 +301,8 @@ footer p {
     }
 
     #quiz-selection button {
-        width: 100%; /* Maintain full width on larger screens */
+        /* Maintain full width on larger screens */
+        width: 100%;
         margin: 10px 0;
         font-size: 16px;
     }
@@ -283,6 +314,12 @@ footer p {
 
     button {
         margin: 15px 0;
+    }
+
+    #options-container button, #options-container div {
+        max-width: 500px;
+        padding: 15px;
+        font-size: 1.2em;
     }
 }
 
