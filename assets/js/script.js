@@ -102,6 +102,16 @@ function endQuiz() {
 }
 
 /**
+ * Function to quit the quiz and return to the main menu
+ */
+function quitGame() {
+    if (confirm("Are you sure you want to quit the game?")) {
+        clearInterval(timerInterval);
+        returnToMainMenu();
+    }
+}
+
+/**
  * Function to start the quiz timer
  */
 function startTimer() {
