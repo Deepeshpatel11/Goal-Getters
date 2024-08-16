@@ -51,9 +51,7 @@ h2 {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-p,
-ul,
-li {
+p, ul, li {
     font-size: 1.1em;
     color: #f0f0f0;
     margin-bottom: 15px;
@@ -97,14 +95,12 @@ a:hover {
 #quiz-selection {
     display: flex;
     flex-direction: column;
-    /* Center the buttons horizontally */
     align-items: center;
 }
 
 #quiz-selection button {
     width: 100%;
     max-width: 300px;
-    /* Limit button width on wider screens */
     margin: 10px 0;
     padding: 10px;
     background-color: #1e90ff;
@@ -151,7 +147,7 @@ footer p {
     margin-bottom: 15px;
 }
 
-/* Creating color scheme themes so that depending on which quiz is selected; color changes */
+/* Theme-Specific Text Styling */
 /* Theme for English Football (White and Red - English Flag Colors) */
 .theme-english {
     background-color: #ffffff;
@@ -160,6 +156,15 @@ footer p {
 
 .theme-english .container {
     background-color: rgba(255, 255, 255, 0.8);
+    color: #d40000;
+}
+
+.theme-english .container h2,
+.theme-english .container p,
+.theme-english .container ul,
+.theme-english .container li,
+.theme-english .container a {
+    /* Red text color for English theme */
     color: #d40000;
 }
 
@@ -183,6 +188,15 @@ footer p {
     color: #ffc400;
 }
 
+.theme-spanish .container h2,
+.theme-spanish .container p,
+.theme-spanish .container ul,
+.theme-spanish .container li,
+.theme-spanish .container a {
+    /* Yellow text color for Spanish theme */
+    color: #ffc400;
+}
+
 .theme-spanish button {
     background-color: #ffc400;
     color: #c60b1e;
@@ -201,6 +215,15 @@ footer p {
 .theme-italian .container {
     background-color: rgba(0, 140, 69, 0.8);
     color: #ffffff;
+}
+
+.theme-italian .container h2,
+.theme-italian .container p,
+.theme-italian .container ul,
+.theme-italian .container li,
+.theme-italian .container a {
+    /* White text color for Italian theme */
+    color: #ffffff; 
 }
 
 .theme-italian button {
@@ -223,13 +246,22 @@ footer p {
     color: #ffcc00;
 }
 
+.theme-continental .container h2,
+.theme-continental .container p,
+.theme-continental .container ul,
+.theme-continental .container li,
+.theme-continental .container a {
+    /* Yellow text color for Continental theme */
+    color: #ffcc00; 
+}
+
 .theme-continental button {
     background-color: #ffcc00;
     color: #003399;
 }
 
 .theme-continental button:hover {
-    background-color: #e6b800;
+    background-color: #b69510f0;
 }
 
 /* Media Queries for Larger Screens widths above 768px */
@@ -239,16 +271,14 @@ footer p {
     }
 
     #quiz-selection {
-        /* Arrange buttons in a row on wider screens */
-        flex-direction: column;
-        /* Center the buttons in the container */
-        justify-content: center;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center space-around; 
     }
 
     #quiz-selection button {
         width: auto;
-        /* Adjust margin for horizontal layout */
-        margin: 10px 15px;
+        margin: 10px 15px; /* Adjust margin for horizontal layout */
         font-size: 16px;
     }
 
