@@ -70,7 +70,7 @@ header nav ul li a:hover {
 
 /* Button Styles */
 button {
-    /* Default blue background for buttons to keep styling consistant */
+    /* Default blue background for buttons to keep styling consistent */
     background-color: #1e90ff;
     /* white color for text */
     color: #fff;
@@ -85,7 +85,7 @@ button {
 
 button:hover {
     /* Button to go dark blue when hovered on */
-    background-color: #1c86ee;;
+    background-color: #1c86ee;
 }
 
 /* Tomato color for quit button */
@@ -135,4 +135,52 @@ footer p {
 
 #quiz-selection button:hover {
     background-color: #1c86ee;
+}
+
+/* Media Queries for Larger Screens widths above 768px */
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 2em; 
+    }
+
+    #quiz-selection button,
+    .container a.button,
+    button {
+        font-size: 16px;
+        width: auto; 
+    }
+
+    .container {
+        padding: 20px; 
+        max-width: 600px; 
+    }
+
+    button {
+        margin: 15px 0; 
+    }
+}
+
+/* Media Queries for Larger Screens widths above 1024px */
+@media (min-width: 1024px) {
+    header h1 {
+        font-size: 2.5em; 
+    }
+
+    .container {
+        max-width: 800px;
+    }
+
+    footer p {
+        font-size: 1.2em; 
+    }
+
+    #quiz-selection button,
+    .container a.button,
+    button {
+        font-size: 18px; 
+    }
+
+    button {
+        margin: 20px 0; 
+    }
 }
