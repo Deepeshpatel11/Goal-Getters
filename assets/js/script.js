@@ -27,6 +27,7 @@ function loadQuestions() {
     const username = localStorage.getItem('quizUsername');
     document.getElementById('category-title').textContent = `${category} - Player: ${username}`;
 
+    applyTheme(category); // Apply the corresponding theme
 
     fetch('assets/data/questions.json')
         .then(response => response.json())
@@ -49,6 +50,7 @@ function loadQuestions() {
  */
 function applyTheme(category) {
     const body = document.body;
+    console.log("Applying theme for category:", category); // Debugging line
 
     // Clear any existing theme classes
     body.classList.remove('theme-english', 'theme-spanish', 'theme-italian', 'theme-continental');
@@ -163,7 +165,6 @@ function displayTime() {
 function returnToMainMenu() {
     window.location.href = 'index.html';
 }
-
 
 /** 
  * Initialize the quiz on page load
