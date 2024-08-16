@@ -74,6 +74,13 @@ button {
     background-color: #1e90ff;
     /* white color for text */
     color: #fff;
+    border: none;
+    padding: 10px;
+    /* Margin between buttons */
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
 }
 
 /* Footer Styles */
