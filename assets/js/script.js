@@ -2,8 +2,9 @@
 let questions = []; // Will hold the quiz questions
 let currentQuestionIndex = 0; // Tracks the current question number
 let score = 0; // Tracks the user's score
-let timeLeft = 3 * 60; // 15 minutes in seconds
+let timeLeft = 3 * 60; // 3 minutes in seconds
 let timerInterval; // Will hold the timer interval ID
+let answeredQuestions = []; // Will store the user's answers and correct answers
 
 /**
  * Function to start the quiz from index.html 
@@ -84,7 +85,7 @@ function loadNextQuestion() {
         shuffledOptions.forEach(option => {
             const button = document.createElement('button');
             button.textContent = option;
-            button.onclick = () => checkAnswer(option === questionData.answer);
+            button.onclick = () => checkAnswer(option, questionData.answer, questionData.question);
             optionsContainer.appendChild(button);
         });
 
@@ -95,24 +96,60 @@ function loadNextQuestion() {
 }
 
 /**
- * Function to check the user's answer and update the score
+ * Function to check the user's answer, provide feedback, and store the result
  */
-function checkAnswer(isCorrect) {
+function checkAnswer(selectedOption, correctAnswer, questionText) {
+    const isCorrect = selectedOption === correctAnswer;
+
+    // Store the user's answer and the correct answer
+    answeredQuestions.push({
+        question: questionText,
+        selectedAnswer: selectedOption,
+        correctAnswer: correctAnswer,
+        isCorrect: isCorrect
+    });
+
     if (isCorrect) {
         score++;
+        event.target.style.backgroundColor = "green"; // Correct answer feedback
+    } else {
+        event.target.style.backgroundColor = "red"; // Incorrect answer feedback
     }
     document.getElementById('score').textContent = score;
-    loadNextQuestion();
+
+    // Disable all buttons to prevent multiple clicks during feedback delay
+    const buttons = document.querySelectorAll('#options-container button');
+    buttons.forEach(btn => btn.disabled = true);
+
+    // Delay before loading the next question to show feedback
+    setTimeout(loadNextQuestion, 1000);
 }
 
 /**
- * Function to end the quiz and display the final score
+ * Function to end the quiz and display the final score and summary
  */
 function endQuiz() {
     clearInterval(timerInterval); // Stop the timer
     document.getElementById('quiz-container').style.display = 'none';
     document.getElementById('result-container').style.display = 'block';
     document.getElementById('final-score').textContent = score;
+
+    // Display the summary of questions answered
+    const summaryContainer = document.getElementById('summary-container');
+    summaryContainer.innerHTML = ''; // Clear previous summary if any
+
+    answeredQuestions.forEach((item, index) => {
+        const questionSummary = document.createElement('div');
+        questionSummary.className = 'question-summary';
+        questionSummary.innerHTML = `
+            <p><strong>Question ${index + 1}:</strong> ${item.question}</p>
+            <p><strong>Your Answer:</strong> ${item.selectedAnswer}</p>
+            <p><strong>Correct Answer:</strong> ${item.correctAnswer}</p>
+            <p style="color: ${item.isCorrect ? 'green' : 'red'};">${item.isCorrect ? 'Correct' : 'Incorrect'}</p>
+            <hr>
+        `;
+        summaryContainer.appendChild(questionSummary);
+    });
 
     // Save the high score to localStorage
     const category = localStorage.getItem('quizCategory');

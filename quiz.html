@@ -20,7 +20,7 @@
     <main class="container">
         <h2 id="category-title">Quiz</h2>
         <div id="timer-container">
-            <p>Time Left: <span id="timer">3:00</span></p>
+            <p>Time Left: <span id="timer">03:00</span></p>
         </div>
         <div id="quiz-container">
             <p id="question-text">Question will appear here</p>
@@ -30,8 +30,11 @@
             <p>Score: <span id="score">0</span></p>
         </div>
         <button id="quit-btn" onclick="quitGame()">Quit Game</button>
+        
+        <!-- Result and Summary Container -->
         <div id="result-container" style="display: none;">
             <h2>Your Final Score: <span id="final-score"></span></h2>
+            <div id="summary-container"></div> <!-- This is where the summary will appear -->
             <button onclick="returnToMainMenu()">Return to Main Menu</button>
         </div>
     </main>
