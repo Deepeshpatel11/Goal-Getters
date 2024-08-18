@@ -2,7 +2,7 @@
 let questions = []; // Will hold the quiz questions
 let currentQuestionIndex = 0; // Tracks the current question number
 let score = 0; // Tracks the user's score
-let timeLeft = 15 * 60; // 15 minutes in seconds
+let timeLeft = 3 * 60; // 15 minutes in seconds
 let timerInterval; // Will hold the timer interval ID
 
 /**
