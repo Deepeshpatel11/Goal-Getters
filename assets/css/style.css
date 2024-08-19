@@ -89,7 +89,7 @@ a:hover {
     width: 90%;
     max-width: 500px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin: auto auto;
+    margin: 20px auto 92px;
     position: relative;
 }
 
@@ -305,6 +305,18 @@ footer p {
 .theme-continental #options-container button:hover {
     background-color: #b69510f0;
 }
+
+/* Ensure the summary section is scrollable if it exceeds a certain height */
+#summary-container {
+    max-height: 400px; /* Adjust this value based on your layout */
+    overflow-y: auto;
+    padding-right: 10px; /* To accommodate the scrollbar */
+}
+
+#summary-container .question-summary {
+    margin-bottom: 10px;
+}
+
 
 /* Media Queries for Larger Screens widths above 768px */
 @media (min-width: 768px) {
