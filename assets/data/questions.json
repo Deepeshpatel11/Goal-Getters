@@ -1,4 +1,5 @@
-[{
+[
+    {
         "category": "English Football",
         "questions": [
             {
@@ -2947,1736 +2948,1393 @@
                 "answer": "Duncan Ferguson"
             }
         ]
-        
-        
-        
-        
-        
-
     },
     {
         "category": "Spanish Football",
-        "questions": [{
-                "question": "Which team has won the most La Liga titles?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Who is the all-time top scorer in La Liga history?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra", "Raúl"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which player holds the record for the most assists in La Liga history?",
-                "options": ["Lionel Messi", "Xavi Hernández", "Andrés Iniesta", "Cristiano Ronaldo"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club has the most consecutive La Liga titles?",
-                "options": ["Real Madrid", "Barcelona", "Athletic Bilbao", "Atlético Madrid"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which team won La Liga in the 2022-2023 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Sevilla"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Who won the La Liga Golden Boot (Pichichi Trophy) in the 2022-2023 season?",
-                "options": ["Karim Benzema", "Robert Lewandowski", "Antoine Griezmann", "Vinícius Júnior"],
-                "answer": "Robert Lewandowski"
-            },
-            {
-                "question": "Which team won their first La Liga title in the 2000-2001 season?",
-                "options": ["Deportivo La Coruña", "Valencia", "Real Sociedad", "Villarreal"],
-                "answer": "Deportivo La Coruña"
-            },
-            {
-                "question": "Which player scored the fastest hat-trick in La Liga history?",
-                "options": ["Cristiano Ronaldo", "Lionel Messi", "Karim Benzema", "David Villa"],
-                "answer": "Karim Benzema"
-            },
-            {
-                "question": "Which club is known as 'Los Colchoneros'?",
-                "options": ["Atlético Madrid", "Barcelona", "Real Madrid", "Sevilla"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which goalkeeper has the most clean sheets in La Liga history?",
-                "options": ["Andoni Zubizarreta", "Iker Casillas", "Víctor Valdés", "Jan Oblak"],
-                "answer": "Andoni Zubizarreta"
-            },
-            {
-                "question": "Which player holds the record for the most appearances in La Liga?",
-                "options": ["Andoni Zubizarreta", "Raúl", "Lionel Messi", "Xavi Hernández"],
-                "answer": "Andoni Zubizarreta"
-            },
-            {
-                "question": "Which team has the longest unbeaten run in La Liga history?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Athletic Bilbao"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player scored the most goals in a single La Liga season?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra", "Raúl"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club did David Villa play for before joining Barcelona in 2010?",
-                "options": ["Valencia", "Atlético Madrid", "Sporting Gijón", "Real Zaragoza"],
-                "answer": "Valencia"
-            },
-            {
-                "question": "Which club is known as 'Los Leones'?",
-                "options": ["Athletic Bilbao", "Barcelona", "Real Betis", "Sevilla"],
-                "answer": "Athletic Bilbao"
-            },
-            {
-                "question": "Which player scored the most goals for Real Madrid in La Liga?",
-                "options": ["Cristiano Ronaldo", "Raúl", "Karim Benzema", "Ferenc Puskás"],
-                "answer": "Cristiano Ronaldo"
-            },
-            {
-                "question": "Which manager led Real Madrid to their first La Liga title in the 21st century?",
-                "options": ["Vicente del Bosque", "José Mourinho", "Fabio Capello", "Zinedine Zidane"],
-                "answer": "Vicente del Bosque"
-            },
-            {
-                "question": "Which club won La Liga in the 2013-2014 season?",
-                "options": ["Atlético Madrid", "Barcelona", "Real Madrid", "Valencia"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most red cards in La Liga history?",
-                "options": ["Sergio Ramos", "Fernando Hierro", "Gerardo Torrado", "Xavi Hernández"],
-                "answer": "Sergio Ramos"
-            },
-            {
-                "question": "Which team won La Liga in the 2003-2004 season?",
-                "options": ["Valencia", "Real Madrid", "Barcelona", "Deportivo La Coruña"],
-                "answer": "Valencia"
-            },
-            {
-                "question": "Which club is known as 'Los Verdiblancos'?",
-                "options": ["Real Betis", "Real Sociedad", "Celta Vigo", "Real Valladolid"],
-                "answer": "Real Betis"
-            },
-            {
-                "question": "Which player scored the most goals for Barcelona in La Liga?",
-                "options": ["Lionel Messi", "Samuel Eto'o", "Ronaldinho", "Luis Suárez"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which manager led Barcelona to their first treble in the 2008-2009 season?",
-                "options": ["Pep Guardiola", "Frank Rijkaard", "Luis Enrique", "Johan Cruyff"],
-                "answer": "Pep Guardiola"
-            },
-            {
-                "question": "Which club won La Liga in the 2001-2002 season?",
-                "options": ["Valencia", "Real Madrid", "Barcelona", "Deportivo La Coruña"],
-                "answer": "Valencia"
-            },
-            {
-                "question": "Which player holds the record for the most appearances for Barcelona in La Liga?",
-                "options": ["Lionel Messi", "Xavi Hernández", "Andrés Iniesta", "Carles Puyol"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 1999-2000 season?",
-                "options": ["Deportivo La Coruña", "Real Madrid", "Barcelona", "Valencia"],
-                "answer": "Deportivo La Coruña"
-            },
-            {
-                "question": "Which player scored the winning goal for Atlético Madrid in the 2013-2014 La Liga title decider against Barcelona?",
-                "options": ["Diego Godín", "Raúl García", "Koke", "David Villa"],
-                "answer": "Diego Godín"
-            },
-            {
-                "question": "Which club did Cristiano Ronaldo join from Real Madrid in 2018?",
-                "options": ["Juventus", "Manchester United", "Paris Saint-Germain", "Bayern Munich"],
-                "answer": "Juventus"
-            },
-            {
-                "question": "Which team won La Liga in the 2015-2016 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Sevilla"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most hat-tricks in La Liga history?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra", "Alfredo Di Stéfano"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club did Iker Casillas play for before joining FC Porto?",
-                "options": ["Real Madrid", "Barcelona", "Sevilla", "Villarreal"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which team won La Liga in the 2007-2008 season?",
-                "options": ["Real Madrid", "Barcelona", "Villarreal", "Sevilla"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player scored the most goals in a single La Liga match?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Ladislao Kubala", "Telmo Zarra"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club is known as 'Los Che'?",
-                "options": ["Valencia", "Sevilla", "Villarreal", "Real Sociedad"],
-                "answer": "Valencia"
-            },
-            {
-                "question": "Which team won La Liga in the 1995-1996 season?",
-                "options": ["Atlético Madrid", "Barcelona", "Real Madrid", "Valencia"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most assists in a single La Liga season?",
-                "options": ["Lionel Messi", "Xavi Hernández", "Andrés Iniesta", "Cristiano Ronaldo"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club did Xavi Hernández join after leaving Barcelona in 2015?",
-                "options": ["Al Sadd", "Manchester City", "Juventus", "Paris Saint-Germain"],
-                "answer": "Al Sadd"
-            },
-            {
-                "question": "Which player holds the record for the most goals scored in El Clásico matches?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Alfredo Di Stéfano", "Raúl"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 2005-2006 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Sevilla"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most consecutive La Liga appearances?",
-                "options": ["Andoni Zubizarreta", "Raúl", "Lionel Messi", "Luis Aragonés"],
-                "answer": "Andoni Zubizarreta"
-            },
-            {
-                "question": "Which club is known as 'Los Merengues'?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Sevilla"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player won the La Liga Golden Boot (Pichichi Trophy) in the 2021-2022 season?",
-                "options": ["Karim Benzema", "Robert Lewandowski", "Iago Aspas", "Vinícius Júnior"],
-                "answer": "Karim Benzema"
-            },
-            {
-                "question": "Which club won La Liga in the 1991-1992 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Deportivo La Coruña"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player scored the most goals for Atlético Madrid in La Liga?",
-                "options": ["Antoine Griezmann", "Fernando Torres", "Diego Forlán", "Luis Aragonés"],
-                "answer": "Antoine Griezmann"
-            },
-            {
-                "question": "Which team won La Liga in the 2017-2018 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Valencia"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most goals in a single La Liga season by a goalkeeper?",
-                "options": ["José Luis Chilavert", "Jorge Campos", "Iker Casillas", "Víctor Valdés"],
-                "answer": "José Luis Chilavert"
-            },
-            {
-                "question": "Which club did Raúl join after leaving Real Madrid?",
-                "options": ["Schalke 04", "Al Sadd", "Paris Saint-Germain", "New York Cosmos"],
-                "answer": "Schalke 04"
-            },
-            {
-                "question": "Which team won La Liga in the 1992-1993 season?",
-                "options": ["Barcelona", "Real Madrid", "Deportivo La Coruña", "Valencia"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player scored the most goals for Sevilla in La Liga?",
-                "options": ["Frédéric Kanouté", "Luis Fabiano", "Álvaro Negredo", "Diego Maradona"],
-                "answer": "Frédéric Kanouté"
-            },
-            {
-                "question": "Which team won La Liga in the 2016-2017 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Sevilla"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most own goals in La Liga history?",
-                "options": ["Sergio Ramos", "Gerard Piqué", "Carles Puyol", "Fernando Hierro"],
-                "answer": "Sergio Ramos"
-            },
-            {
-                "question": "Which club did Luis Suárez join after leaving Barcelona in 2020?",
-                "options": ["Atlético Madrid", "Paris Saint-Germain", "Manchester City", "Juventus"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most red cards for Barcelona in La Liga?",
-                "options": ["Gerard Piqué", "Sergio Busquets", "Carles Puyol", "Dani Alves"],
-                "answer": "Gerard Piqué"
-            },
-            {
-                "question": "Which team won La Liga in the 1998-1999 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Deportivo La Coruña"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player scored the most goals for Valencia in La Liga?",
-                "options": ["David Villa", "Mario Kempes", "Mista", "Roberto Soldado"],
-                "answer": "David Villa"
-            },
-            {
-                "question": "Which team won La Liga in the 2004-2005 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Deportivo La Coruña"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most assists for Barcelona in La Liga?",
-                "options": ["Lionel Messi", "Xavi Hernández", "Andrés Iniesta", "Neymar"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club did Zinedine Zidane play for before joining Real Madrid?",
-                "options": ["Juventus", "Bordeaux", "AS Cannes", "Inter Milan"],
-                "answer": "Juventus"
-            },
-            {
-                "question": "Which team won La Liga in the 2002-2003 season?",
-                "options": ["Real Madrid", "Barcelona", "Valencia", "Real Sociedad"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player scored the most goals for Real Sociedad in La Liga?",
-                "options": ["Carlos Vela", "Antoine Griezmann", "Darko Kovačević", "Xabi Prieto"],
-                "answer": "Carlos Vela"
-            },
-            {
-                "question": "Which team won La Liga in the 2011-2012 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most hat-tricks for Real Madrid in La Liga?",
-                "options": ["Cristiano Ronaldo", "Raúl", "Karim Benzema", "Ferenc Puskás"],
-                "answer": "Cristiano Ronaldo"
-            },
-            {
-                "question": "Which club did Neymar join after leaving Barcelona in 2017?",
-                "options": ["Paris Saint-Germain", "Manchester City", "Real Madrid", "Juventus"],
-                "answer": "Paris Saint-Germain"
-            },
-            {
-                "question": "Which team won La Liga in the 2010-2011 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Valencia"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most appearances for Real Madrid in La Liga?",
-                "options": ["Raúl", "Iker Casillas", "Sergio Ramos", "Manuel Sanchís"],
-                "answer": "Raúl"
-            },
-            {
-                "question": "Which player holds the record for the most goals in a single La Liga season by a midfielder?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Zinedine Zidane", "Andrés Iniesta"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club did Fernando Torres join after leaving Atlético Madrid in 2007?",
-                "options": ["Liverpool", "Chelsea", "AC Milan", "Juventus"],
-                "answer": "Liverpool"
-            },
-            {
-                "question": "Which team won La Liga in the 1997-1998 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Deportivo La Coruña"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most goals for Real Madrid in a single La Liga season?",
-                "options": ["Cristiano Ronaldo", "Raúl", "Karim Benzema", "Ferenc Puskás"],
-                "answer": "Cristiano Ronaldo"
-            },
-            {
-                "question": "Which team won La Liga in the 2006-2007 season?",
-                "options": ["Real Madrid", "Barcelona", "Sevilla", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most goals in a single La Liga season by a defender?",
-                "options": ["Sergio Ramos", "Fernando Hierro", "Ronald Koeman", "Roberto Carlos"],
-                "answer": "Ronald Koeman"
-            },
-            {
-                "question": "Which team won La Liga in the 1993-1994 season?",
-                "options": ["Barcelona", "Real Madrid", "Deportivo La Coruña", "Valencia"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player scored the most goals for Athletic Bilbao in La Liga?",
-                "options": ["Telmo Zarra", "Fernando Llorente", "Aritz Aduriz", "Andoni Goikoetxea"],
-                "answer": "Telmo Zarra"
-            },
-            {
-                "question": "Which team won La Liga in the 2012-2013 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Valencia"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most assists for Real Madrid in La Liga?",
-                "options": ["Cristiano Ronaldo", "Mesut Özil", "Raúl", "Karim Benzema"],
-                "answer": "Cristiano Ronaldo"
-            },
-            {
-                "question": "Which club did Diego Forlán play for before joining Atlético Madrid?",
-                "options": ["Villarreal", "Manchester United", "Inter Milan", "Real Sociedad"],
-                "answer": "Villarreal"
-            },
-            {
-                "question": "Which team won La Liga in the 1996-1997 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Deportivo La Coruña"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most goals in a single La Liga season by a player under 21?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Raúl", "Sergio Agüero"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 2014-2015 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Sevilla"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which club won La Liga in the 2021-2022 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Sevilla"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Who was the manager of Atlético Madrid when they won La Liga in the 2013-2014 season?",
-                "options": ["Diego Simeone", "Javier Aguirre", "Quique Sánchez Flores", "Gregorio Manzano"],
-                "answer": "Diego Simeone"
-            },
-            {
-                "question": "Which player holds the record for the most appearances for Atlético Madrid in La Liga?",
-                "options": ["Koke", "Fernando Torres", "Diego Godín", "Luis Aragonés"],
-                "answer": "Koke"
-            },
-            {
-                "question": "Which team was the first to win La Liga after the Spanish Civil War in 1939?",
-                "options": ["Atlético Madrid", "Valencia", "Real Madrid", "Barcelona"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player scored the most goals for Deportivo La Coruña in La Liga?",
-                "options": ["Bebeto", "Roy Makaay", "Diego Tristán", "Mauro Silva"],
-                "answer": "Diego Tristán"
-            },
-            {
-                "question": "Which club is known as 'Los Blanquivioletas'?",
-                "options": ["Real Valladolid", "Celta Vigo", "Real Betis", "Espanyol"],
-                "answer": "Real Valladolid"
-            },
-            {
-                "question": "Which player scored the most goals for Espanyol in La Liga?",
-                "options": ["Raúl Tamudo", "Dani Jarque", "Sergio García", "Luis García"],
-                "answer": "Raúl Tamudo"
-            },
-            {
-                "question": "Which team won La Liga in the 1983-1984 season?",
-                "options": ["Athletic Bilbao", "Real Madrid", "Barcelona", "Atlético Madrid"],
-                "answer": "Athletic Bilbao"
-            },
-            {
-                "question": "Which player holds the record for the most yellow cards in La Liga history?",
-                "options": ["Sergio Ramos", "Raúl García", "Gabi", "Gerard Piqué"],
-                "answer": "Raúl García"
-            },
-            {
-                "question": "Which club won La Liga in the 1994-1995 season?",
-                "options": ["Real Madrid", "Barcelona", "Deportivo La Coruña", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player scored the most goals for Villarreal in La Liga?",
-                "options": ["Giuseppe Rossi", "Diego Forlán", "Gerard Moreno", "Santi Cazorla"],
-                "answer": "Gerard Moreno"
-            },
-            {
-                "question": "Which team won La Liga in the 2009-2010 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Sevilla"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which club did Antoine Griezmann join after leaving Real Sociedad in 2014?",
-                "options": ["Atlético Madrid", "Barcelona", "Paris Saint-Germain", "Manchester United"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most assists for Atlético Madrid in La Liga?",
-                "options": ["Koke", "Antoine Griezmann", "Diego Forlán", "Fernando Torres"],
-                "answer": "Koke"
-            },
-            {
-                "question": "Which team won La Liga in the 1985-1986 season?",
-                "options": ["Real Madrid", "Barcelona", "Athletic Bilbao", "Atlético Madrid"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player scored the most goals for Celta Vigo in La Liga?",
-                "options": ["Iago Aspas", "Alexander Mostovoi", "Gustavo López", "Nolito"],
-                "answer": "Iago Aspas"
-            },
-            {
-                "question": "Which club is known as 'Los Txuri-Urdin'?",
-                "options": ["Real Sociedad", "Athletic Bilbao", "Deportivo Alavés", "Osasuna"],
-                "answer": "Real Sociedad"
-            },
-            {
-                "question": "Which team won La Liga in the 2000-2001 season?",
-                "options": ["Real Madrid", "Barcelona", "Deportivo La Coruña", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga appearances for Valencia?",
-                "options": ["Fernando Gómez", "David Villa", "David Albelda", "Roberto Soldado"],
-                "answer": "Fernando Gómez"
-            },
-            {
-                "question": "Which player scored the most goals for Real Betis in La Liga?",
-                "options": ["Rubén Castro", "Joaquín", "Luis Aragonés", "Rafael Gordillo"],
-                "answer": "Rubén Castro"
-            },
-            {
-                "question": "Which team won La Liga in the 1973-1974 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Atlético Madrid"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a midfielder?",
-                "options": ["Lionel Messi", "Andrés Iniesta", "David Silva", "Juan Mata"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club did Radamel Falcao join after leaving Atlético Madrid in 2013?",
-                "options": ["Monaco", "Manchester United", "Chelsea", "Porto"],
-                "answer": "Monaco"
-            },
-            {
-                "question": "Which team won La Liga in the 1987-1988 season?",
-                "options": ["Real Madrid", "Barcelona", "Real Sociedad", "Athletic Bilbao"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a foreign player?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Karim Benzema", "Diego Forlán"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club won La Liga in the 1989-1990 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals in a single match?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Ladislao Kubala", "Telmo Zarra"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club did Dani Alves join after leaving Barcelona in 2016?",
-                "options": ["Juventus", "Paris Saint-Germain", "Sevilla", "Manchester City"],
-                "answer": "Juventus"
-            },
-            {
-                "question": "Which team won La Liga in the 1990-1991 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Deportivo La Coruña"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals for a single club?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra", "Raúl"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club won La Liga in the 1970-1971 season?",
-                "options": ["Valencia", "Real Madrid", "Barcelona", "Atlético Madrid"],
-                "answer": "Valencia"
-            },
-            {
-                "question": "Which player scored the most goals for Real Sociedad in La Liga?",
-                "options": ["Carlos Vela", "Antoine Griezmann", "Darko Kovačević", "Xabi Prieto"],
-                "answer": "Carlos Vela"
-            },
-            {
-                "question": "Which team won La Liga in the 1996-1997 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Deportivo La Coruña"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a defender?",
-                "options": ["Ronald Koeman", "Fernando Hierro", "Sergio Ramos", "Roberto Carlos"],
-                "answer": "Ronald Koeman"
-            },
-            {
-                "question": "Which club won La Liga in the 1992-1993 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Deportivo La Coruña"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals in a calendar year?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Raúl", "Telmo Zarra"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club did Luis Suárez join after leaving Barcelona in 2020?",
-                "options": ["Atlético Madrid", "Paris Saint-Germain", "Juventus", "Manchester City"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals in a single season?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra", "Raúl"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 1982-1983 season?",
-                "options": ["Athletic Bilbao", "Real Madrid", "Barcelona", "Atlético Madrid"],
-                "answer": "Athletic Bilbao"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga appearances by a foreign player?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Karim Benzema", "Roberto Carlos"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club did Karim Benzema join after leaving Real Madrid in 2023?",
-                "options": ["Al-Ittihad", "Paris Saint-Germain", "Juventus", "Manchester United"],
-                "answer": "Al-Ittihad"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga appearances for Sevilla?",
-                "options": ["Jesús Navas", "Andrés Palop", "Dani Alves", "Frédéric Kanouté"],
-                "answer": "Jesús Navas"
-            },
-            {
-                "question": "Which club won La Liga in the 1984-1985 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Athletic Bilbao"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a Spanish player?",
-                "options": ["Telmo Zarra", "Raúl", "David Villa", "Fernando Torres"],
-                "answer": "Telmo Zarra"
-            },
-            {
-                "question": "Which team won La Liga in the 1980-1981 season?",
-                "options": ["Real Sociedad", "Real Madrid", "Barcelona", "Athletic Bilbao"],
-                "answer": "Real Sociedad"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga assists in a single season?",
-                "options": ["Lionel Messi", "Xavi Hernández", "Cristiano Ronaldo", "Andrés Iniesta"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club did Antoine Griezmann join after leaving Real Sociedad in 2014?",
-                "options": ["Atlético Madrid", "Barcelona", "Manchester United", "Paris Saint-Germain"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which team won La Liga in the 1977-1978 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Athletic Bilbao"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a French player?",
-                "options": ["Karim Benzema", "Antoine Griezmann", "Zinedine Zidane", "David Trezeguet"],
-                "answer": "Karim Benzema"
-            },
-            {
-                "question": "Which club won La Liga in the 1998-1999 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Deportivo La Coruña"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals for Real Madrid?",
-                "options": ["Cristiano Ronaldo", "Karim Benzema", "Raúl", "Ferenc Puskás"],
-                "answer": "Cristiano Ronaldo"
-            },
-            {
-                "question": "Which team won La Liga in the 1969-1970 season?",
-                "options": ["Atlético Madrid", "Barcelona", "Real Madrid", "Valencia"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga appearances by a goalkeeper?",
-                "options": ["Andoni Zubizarreta", "Iker Casillas", "Víctor Valdés", "Santiago Cañizares"],
-                "answer": "Andoni Zubizarreta"
-            },
-            {
-                "question": "Which club did Lionel Messi join after leaving Barcelona in 2021?",
-                "options": ["Paris Saint-Germain", "Manchester City", "Inter Miami", "Newell's Old Boys"],
-                "answer": "Paris Saint-Germain"
-            },
-            {
-                "question": "Which team won La Liga in the 1975-1976 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Athletic Bilbao"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a Brazilian player?",
-                "options": ["Ronaldo", "Romário", "Ronaldinho", "Bebeto"],
-                "answer": "Ronaldo"
-            },
-            {
-                "question": "Which club won La Liga in the 1988-1989 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals for Barcelona?",
-                "options": ["Lionel Messi", "Samuel Eto'o", "Luis Suárez", "Ronaldinho"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 1999-2000 season?",
-                "options": ["Deportivo La Coruña", "Barcelona", "Real Madrid", "Valencia"],
-                "answer": "Deportivo La Coruña"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga appearances for Real Madrid?",
-                "options": ["Raúl", "Iker Casillas", "Sergio Ramos", "Manuel Sanchís"],
-                "answer": "Raúl"
-            },
-            {
-                "question": "Which club won La Liga in the 1981-1982 season?",
-                "options": ["Real Sociedad", "Real Madrid", "Barcelona", "Athletic Bilbao"],
-                "answer": "Real Sociedad"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by an Argentine player?",
-                "options": ["Lionel Messi", "Alfredo Di Stéfano", "Diego Maradona", "Hernán Crespo"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club won La Liga in the 2010-2011 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Valencia"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals for a non-European player?",
-                "options": ["Lionel Messi", "Ronaldo", "Ronaldinho", "Neymar"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 1966-1967 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a Mexican player?",
-                "options": ["Hugo Sánchez", "Rafa Márquez", "Carlos Vela", "Javier Hernández"],
-                "answer": "Hugo Sánchez"
-            },
-            {
-                "question": "Which club won La Liga in the 2014-2015 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Valencia"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga appearances for Barcelona?",
-                "options": ["Lionel Messi", "Xavi Hernández", "Andrés Iniesta", "Carles Puyol"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 1997-1998 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Deportivo La Coruña"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals for a European player?",
-                "options": ["Cristiano Ronaldo", "Karim Benzema", "Raúl", "Ferenc Puskás"],
-                "answer": "Cristiano Ronaldo"
-            },
-            {
-                "question": "Which team won La Liga in the 2019-2020 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Sevilla"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals for a non-European player?",
-                "options": ["Lionel Messi", "Ronaldo", "Ronaldinho", "Neymar"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 2018-2019 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Valencia"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals for Atlético Madrid?",
-                "options": ["Antoine Griezmann", "Fernando Torres", "Diego Forlán", "Luis Aragonés"],
-                "answer": "Antoine Griezmann"
-            },
-            {
-                "question": "Which club won La Liga in the 2011-2012 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a Uruguayan player?",
-                "options": ["Luis Suárez", "Diego Forlán", "Edinson Cavani", "Diego Godín"],
-                "answer": "Luis Suárez"
-            },
-            {
-                "question": "Which club won La Liga in the 1965-1966 season?",
-                "options": ["Atlético Madrid", "Real Madrid", "Barcelona", "Valencia"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals for Villarreal?",
-                "options": ["Gerard Moreno", "Diego Forlán", "Giuseppe Rossi", "Santi Cazorla"],
-                "answer": "Gerard Moreno"
-            },
-            {
-                "question": "Which team won La Liga in the 1971-1972 season?",
-                "options": ["Real Madrid", "Barcelona", "Valencia", "Atlético Madrid"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a Portuguese player?",
-                "options": ["Cristiano Ronaldo", "Eusébio", "Luis Figo", "Deco"],
-                "answer": "Cristiano Ronaldo"
-            },
-            {
-                "question": "Which club won La Liga in the 1986-1987 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Real Sociedad"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals for Sevilla?",
-                "options": ["Frédéric Kanouté", "Luis Fabiano", "Álvaro Negredo", "Diego Maradona"],
-                "answer": "Frédéric Kanouté"
-            },
-            {
-                "question": "Which team won La Liga in the 1974-1975 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a Dutch player?",
-                "options": ["Ruud van Nistelrooy", "Patrick Kluivert", "Johan Cruyff", "Wesley Sneijder"],
-                "answer": "Ruud van Nistelrooy"
-            },
-            {
-                "question": "Which club won La Liga in the 1995-1996 season?",
-                "options": ["Atlético Madrid", "Real Madrid", "Barcelona", "Valencia"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a German player?",
-                "options": ["Bernd Schuster", "Uli Stielike", "Toni Kroos", "Mesut Özil"],
-                "answer": "Bernd Schuster"
-            },
-            {
-                "question": "Which team won La Liga in the 2013-2014 season?",
-                "options": ["Atlético Madrid", "Real Madrid", "Barcelona", "Valencia"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by an English player?",
-                "options": ["Gary Lineker", "David Beckham", "Steve McManaman", "Michael Owen"],
-                "answer": "Gary Lineker"
-            },
-            {
-                "question": "Which club won La Liga in the 1978-1979 season?",
-                "options": ["Real Madrid", "Barcelona", "Valencia", "Atlético Madrid"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player under 21?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Raúl", "Sergio Agüero"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 1981-1982 season?",
-                "options": ["Real Sociedad", "Real Madrid", "Barcelona", "Athletic Bilbao"],
-                "answer": "Real Sociedad"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by an African player?",
-                "options": ["Samuel Eto'o", "Frederic Kanouté", "Seydou Keita", "Yaya Touré"],
-                "answer": "Samuel Eto'o"
-            },
-            {
-                "question": "Which club won La Liga in the 2003-2004 season?",
-                "options": ["Valencia", "Real Madrid", "Barcelona", "Deportivo La Coruña"],
-                "answer": "Valencia"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player over 30?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Raúl", "Karim Benzema"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 1962-1963 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player in a calendar year?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra", "Raúl"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club won La Liga in the 2005-2006 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Sevilla"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player from the Americas?",
-                "options": ["Lionel Messi", "Diego Maradona", "Ronaldinho", "Ronaldo"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 1976-1977 season?",
-                "options": ["Atlético Madrid", "Barcelona", "Real Madrid", "Valencia"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player from Africa?",
-                "options": ["Samuel Eto'o", "Youssef En-Nesyri", "Pierre-Emerick Aubameyang", "Frédéric Kanouté"],
-                "answer": "Samuel Eto'o"
-            },
-            {
-                "question": "Which club won La Liga in the 1988-1989 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player from South America?",
-                "options": ["Lionel Messi", "Luis Suárez", "Alfredo Di Stéfano", "Ronaldo"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 2012-2013 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Valencia"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player from North America?",
-                "options": ["Hugo Sánchez", "Rafa Márquez", "Carlos Vela", "Javier Hernández"],
-                "answer": "Hugo Sánchez"
-            },
-            {
-                "question": "Which club won La Liga in the 1968-1969 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player from Asia?",
-                "options": ["Shinji Kagawa", "Takefusa Kubo", "Takashi Inui", "Hidetoshi Nakata"],
-                "answer": "Takefusa Kubo"
-            },
-            {
-                "question": "Which team won La Liga in the 1994-1995 season?",
-                "options": ["Real Madrid", "Barcelona", "Deportivo La Coruña", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player from Oceania?",
-                "options": ["Tim Cahill", "Harry Kewell", "Christian Karembeu", "Wynton Rufer"],
-                "answer": "Christian Karembeu"
-            },
-            {
-                "question": "Which club won La Liga in the 1987-1988 season?",
-                "options": ["Real Madrid", "Barcelona", "Real Sociedad", "Athletic Bilbao"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1990s?",
-                "options": ["Antoine Griezmann", "Harry Kane", "Paulo Dybala", "Vinícius Júnior"],
-                "answer": "Antoine Griezmann"
-            },
-            {
-                "question": "Which team won La Liga in the 1996-1997 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Deportivo La Coruña"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 2000s?",
-                "options": ["Ansu Fati", "Pedri", "João Félix", "Vinícius Júnior"],
-                "answer": "Ansu Fati"
-            },
-            {
-                "question": "Which club won La Liga in the 1983-1984 season?",
-                "options": ["Athletic Bilbao", "Real Madrid", "Barcelona", "Atlético Madrid"],
-                "answer": "Athletic Bilbao"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1980s?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Karim Benzema", "Samuel Eto'o"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 1991-1992 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Deportivo La Coruña"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1970s?",
-                "options": ["Raúl", "Fernando Morientes", "Rivaldo", "Ronaldo"],
-                "answer": "Raúl"
-            },
-            {
-                "question": "Which club won La Liga in the 1964-1965 season?",
-                "options": ["Real Madrid", "Atlético Madrid", "Barcelona", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1960s?",
-                "options": ["Hugo Sánchez", "Emilio Butragueño", "Michael Laudrup", "Jorge Valdano"],
-                "answer": "Hugo Sánchez"
-            },
-            {
-                "question": "Which team won La Liga in the 2009-2010 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Sevilla"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1950s?",
-                "options": ["Mario Kempes", "Fernando Torres", "Ronaldo", "Luis Suárez"],
-                "answer": "Mario Kempes"
-            },
-            {
-                "question": "Which club won La Liga in the 1959-1960 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Valencia"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1940s?",
-                "options": ["Paco Gento", "Luis Suárez", "Johan Cruyff", "Alfredo Di Stéfano"],
-                "answer": "Paco Gento"
-            },
-            {
-                "question": "Which team won La Liga in the 2007-2008 season?",
-                "options": ["Real Madrid", "Barcelona", "Villarreal", "Sevilla"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1930s?",
-                "options": ["Telmo Zarra", "Alfredo Di Stéfano", "Ladislao Kubala", "Paco Gento"],
-                "answer": "Telmo Zarra"
-            },
-            {
-                "question": "Which club won La Liga in the 1961-1962 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1920s?",
-                "options": ["Telmo Zarra", "César Rodríguez", "Alfredo Di Stéfano", "Ladislao Kubala"],
-                "answer": "Telmo Zarra"
-            },
-            {
-                "question": "Which team won La Liga in the 1967-1968 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1910s?",
-                "options": ["César Rodríguez", "Guillermo Gorostiza", "Isidro Lángara", "Telmo Zarra"],
-                "answer": "Guillermo Gorostiza"
-            },
-            {
-                "question": "Which club won La Liga in the 1980-1981 season?",
-                "options": ["Real Sociedad", "Real Madrid", "Barcelona", "Athletic Bilbao"],
-                "answer": "Real Sociedad"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1900s?",
-                "options": ["Telmo Zarra", "Guillermo Gorostiza", "Isidro Lángara", "César Rodríguez"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which team won La Liga in the 1982-1983 season?",
-                "options": ["Athletic Bilbao", "Real Madrid", "Barcelona", "Atlético Madrid"],
-                "answer": "Athletic Bilbao"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1890s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which club won La Liga in the 1998-1999 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Deportivo La Coruña"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1880s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which team won La Liga in the 1993-1994 season?",
-                "options": ["Barcelona", "Real Madrid", "Deportivo La Coruña", "Valencia"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1870s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which club won La Liga in the 2000-2001 season?",
-                "options": ["Real Madrid", "Barcelona", "Deportivo La Coruña", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1860s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which team won La Liga in the 1984-1985 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Athletic Bilbao"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1850s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which club won La Liga in the 1972-1973 season?",
-                "options": ["Atlético Madrid", "Real Madrid", "Barcelona", "Valencia"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1840s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga appearances for Athletic Bilbao?",
-                "options": ["José Ángel Iribar", "Andoni Iraola", "Telmo Zarra", "Aritz Aduriz"],
-                "answer": "José Ángel Iribar"
-            },
-            {
-                "question": "Which club won La Liga in the 1980-1981 season?",
-                "options": ["Real Sociedad", "Real Madrid", "Barcelona", "Atlético Madrid"],
-                "answer": "Real Sociedad"
-            },
-            {
-                "question": "Which player holds the record for the most goals scored in a single La Liga season by a Real Sociedad player?",
-                "options": ["Darko Kovačević", "Antoine Griezmann", "Carlos Vela", "Nihat Kahveci"],
-                "answer": "Darko Kovačević"
-            },
-            {
-                "question": "Which team won La Liga in the 1953-1954 season?",
-                "options": ["Real Madrid", "Barcelona", "Valencia", "Atlético Madrid"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals scored in a single match?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Ladislao Kubala", "Telmo Zarra"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club won La Liga in the 1945-1946 season?",
-                "options": ["Sevilla", "Barcelona", "Real Madrid", "Valencia"],
-                "answer": "Sevilla"
-            },
-            {
-                "question": "Which player holds the record for the most consecutive La Liga appearances?",
-                "options": ["Andoni Zubizarreta", "Raúl", "Lionel Messi", "Luis Aragonés"],
-                "answer": "Andoni Zubizarreta"
-            },
-            {
-                "question": "Which team won La Liga in the 1934-1935 season?",
-                "options": ["Real Betis", "Barcelona", "Real Madrid", "Atlético Madrid"],
-                "answer": "Real Betis"
-            },
-            {
-                "question": "Which player holds the record for the most assists in a single La Liga season?",
-                "options": ["Lionel Messi", "Xavi Hernández", "Andrés Iniesta", "Cristiano Ronaldo"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club won La Liga in the 1958-1959 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Atlético Madrid"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most goals scored in El Clásico matches?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Alfredo Di Stéfano", "Raúl"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 2001-2002 season?",
-                "options": ["Valencia", "Real Madrid", "Deportivo La Coruña", "Barcelona"],
-                "answer": "Valencia"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga appearances for Real Betis?",
-                "options": ["Joaquín", "Rubén Castro", "Luis Aragonés", "Rafael Gordillo"],
-                "answer": "Joaquín"
-            },
-            {
-                "question": "Which club won La Liga in the 1964-1965 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most goals scored in a single La Liga match by a non-Spanish player?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Luis Suárez", "Ronaldo"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 1977-1978 season?",
-                "options": ["Real Madrid", "Barcelona", "Valencia", "Atlético Madrid"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals scored by a midfielder?",
-                "options": ["Lionel Messi", "Andrés Iniesta", "David Silva", "Juan Mata"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club won La Liga in the 1970-1971 season?",
-                "options": ["Valencia", "Real Madrid", "Barcelona", "Atlético Madrid"],
-                "answer": "Valencia"
-            },
-            {
-                "question": "Which player holds the record for the most yellow cards in La Liga history?",
-                "options": ["Sergio Ramos", "Gerard Piqué", "Gabi", "Raúl García"],
-                "answer": "Raúl García"
-            },
-            {
-                "question": "Which team won La Liga in the 1940-1941 season?",
-                "options": ["Atlético Madrid", "Real Madrid", "Barcelona", "Valencia"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a foreign player?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Karim Benzema", "Diego Forlán"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club won La Liga in the 1985-1986 season?",
-                "options": ["Real Madrid", "Barcelona", "Athletic Bilbao", "Atlético Madrid"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most goals scored for Barcelona in La Liga?",
-                "options": ["Lionel Messi", "Samuel Eto'o", "Ronaldinho", "Luis Suárez"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 1973-1974 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Atlético Madrid"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga appearances for Villarreal?",
-                "options": ["Bruno Soriano", "Marcos Senna", "Giuseppe Rossi", "Gerard Moreno"],
-                "answer": "Bruno Soriano"
-            },
-            {
-                "question": "Which club won La Liga in the 1997-1998 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Deportivo La Coruña"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a Brazilian player?",
-                "options": ["Ronaldo", "Romário", "Ronaldinho", "Bebeto"],
-                "answer": "Ronaldo"
-            },
-            {
-                "question": "Which team won La Liga in the 1961-1962 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga appearances for Sevilla?",
-                "options": ["Jesús Navas", "Andrés Palop", "Dani Alves", "Frédéric Kanouté"],
-                "answer": "Jesús Navas"
-            },
-            {
-                "question": "Which club won La Liga in the 1955-1956 season?",
-                "options": ["Athletic Bilbao", "Real Madrid", "Barcelona", "Atlético Madrid"],
-                "answer": "Athletic Bilbao"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga appearances for Atlético Madrid?",
-                "options": ["Koke", "Fernando Torres", "Diego Godín", "Luis Aragonés"],
-                "answer": "Koke"
-            },
-            {
-                "question": "Which team won La Liga in the 1992-1993 season?",
-                "options": ["Barcelona", "Real Madrid", "Deportivo La Coruña", "Valencia"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a Mexican player?",
-                "options": ["Hugo Sánchez", "Rafa Márquez", "Carlos Vela", "Javier Hernández"],
-                "answer": "Hugo Sánchez"
-            },
-            {
-                "question": "Which club won La Liga in the 1935-1936 season?",
-                "options": ["Athletic Bilbao", "Real Madrid", "Barcelona", "Atlético Madrid"],
-                "answer": "Athletic Bilbao"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a Portuguese player?",
-                "options": ["Cristiano Ronaldo", "Eusébio", "Luis Figo", "Deco"],
-                "answer": "Cristiano Ronaldo"
-            },
-            {
-                "question": "Which team won La Liga in the 1987-1988 season?",
-                "options": ["Real Madrid", "Barcelona", "Real Sociedad", "Athletic Bilbao"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a Dutch player?",
-                "options": ["Ruud van Nistelrooy", "Patrick Kluivert", "Johan Cruyff", "Wesley Sneijder"],
-                "answer": "Ruud van Nistelrooy"
-            },
-            {
-                "question": "Which club won La Liga in the 1947-1948 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Atlético Madrid"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by an Argentine player?",
-                "options": ["Lionel Messi", "Alfredo Di Stéfano", "Diego Maradona", "Hernán Crespo"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 1960-1961 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a Uruguayan player?",
-                "options": ["Luis Suárez", "Diego Forlán", "Edinson Cavani", "Diego Godín"],
-                "answer": "Luis Suárez"
-            },
-            {
-                "question": "Which club won La Liga in the 1976-1977 season?",
-                "options": ["Atlético Madrid", "Barcelona", "Real Madrid", "Valencia"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a French player?",
-                "options": ["Karim Benzema", "Antoine Griezmann", "Zinedine Zidane", "David Trezeguet"],
-                "answer": "Karim Benzema"
-            },
-            {
-                "question": "Which team won La Liga in the 1950-1951 season?",
-                "options": ["Atlético Madrid", "Barcelona", "Real Madrid", "Valencia"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a German player?",
-                "options": ["Bernd Schuster", "Uli Stielike", "Toni Kroos", "Mesut Özil"],
-                "answer": "Bernd Schuster"
-            },
-            {
-                "question": "Which club won La Liga in the 1994-1995 season?",
-                "options": ["Real Madrid", "Barcelona", "Deportivo La Coruña", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by an English player?",
-                "options": ["Gary Lineker", "David Beckham", "Steve McManaman", "Michael Owen"],
-                "answer": "Gary Lineker"
-            },
-            {
-                "question": "Which team won La Liga in the 1982-1983 season?",
-                "options": ["Athletic Bilbao", "Real Madrid", "Barcelona", "Atlético Madrid"],
-                "answer": "Athletic Bilbao"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a Spanish player?",
-                "options": ["Telmo Zarra", "Raúl", "David Villa", "Fernando Torres"],
-                "answer": "Telmo Zarra"
-            },
-            {
-                "question": "Which club won La Liga in the 1942-1943 season?",
-                "options": ["Athletic Bilbao", "Barcelona", "Real Madrid", "Valencia"],
-                "answer": "Athletic Bilbao"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by an African player?",
-                "options": ["Samuel Eto'o", "Frédéric Kanouté", "Youssef En-Nesyri", "Pierre-Emerick Aubameyang"],
-                "answer": "Samuel Eto'o"
-            },
-            {
-                "question": "Which team won La Liga in the 1939-1940 season?",
-                "options": ["Atlético Madrid", "Real Madrid", "Barcelona", "Valencia"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player over 30?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Raúl", "Karim Benzema"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club won La Liga in the 1949-1950 season?",
-                "options": ["Atlético Madrid", "Barcelona", "Real Madrid", "Valencia"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player under 21?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Raúl", "Sergio Agüero"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 1989-1990 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1990s?",
-                "options": ["Antoine Griezmann", "Harry Kane", "Paulo Dybala", "Vinícius Júnior"],
-                "answer": "Antoine Griezmann"
-            },
-            {
-                "question": "Which club won La Liga in the 1937-1938 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Atlético Madrid"],
-                "answer": "No La Liga was held due to the Spanish Civil War"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 2000s?",
-                "options": ["Ansu Fati", "Pedri", "João Félix", "Vinícius Júnior"],
-                "answer": "Ansu Fati"
-            },
-            {
-                "question": "Which team won La Liga in the 1941-1942 season?",
-                "options": ["Valencia", "Real Madrid", "Barcelona", "Atlético Madrid"],
-                "answer": "Valencia"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1980s?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Karim Benzema", "Samuel Eto'o"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club won La Liga in the 1971-1972 season?",
-                "options": ["Real Madrid", "Barcelona", "Valencia", "Atlético Madrid"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1970s?",
-                "options": ["Raúl", "Fernando Morientes", "Rivaldo", "Ronaldo"],
-                "answer": "Raúl"
-            },
-            {
-                "question": "Which team won La Liga in the 1948-1949 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Atlético Madrid"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga appearances for Barcelona?",
-                "options": ["Lionel Messi", "Xavi Hernández", "Andrés Iniesta", "Carles Puyol"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 1974-1975 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga appearances for Real Madrid?",
-                "options": ["Raúl", "Iker Casillas", "Sergio Ramos", "Manuel Sanchís"],
-                "answer": "Raúl"
-            },
-            {
-                "question": "Which team won La Liga in the 1988-1989 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals scored for Atlético Madrid?",
-                "options": ["Antoine Griezmann", "Fernando Torres", "Diego Forlán", "Luis Aragonés"],
-                "answer": "Antoine Griezmann"
-            },
-            {
-                "question": "Which team won La Liga in the 1991-1992 season?",
-                "options": ["Barcelona", "Real Madrid", "Deportivo La Coruña", "Valencia"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a non-European player?",
-                "options": ["Lionel Messi", "Ronaldo", "Ronaldinho", "Neymar"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which team won La Liga in the 1978-1979 season?",
-                "options": ["Real Madrid", "Barcelona", "Valencia", "Atlético Madrid"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1990s?",
-                "options": ["Antoine Griezmann", "Paulo Dybala", "Vinícius Júnior", "João Félix"],
-                "answer": "Antoine Griezmann"
-            },
-            {
-                "question": "Which club won La Liga in the 1998-1999 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Deportivo La Coruña"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 2000s?",
-                "options": ["Ansu Fati", "Pedri", "João Félix", "Vinícius Júnior"],
-                "answer": "Ansu Fati"
-            },
-            {
-                "question": "Which team won La Liga in the 1941-1942 season?",
-                "options": ["Valencia", "Real Madrid", "Barcelona", "Atlético Madrid"],
-                "answer": "Valencia"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1980s?",
-                "options": ["Lionel Messi", "Cristiano Ronaldo", "Karim Benzema", "Samuel Eto'o"],
-                "answer": "Lionel Messi"
-            },
-            {
-                "question": "Which club won La Liga in the 1971-1972 season?",
-                "options": ["Real Madrid", "Barcelona", "Valencia", "Atlético Madrid"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1970s?",
-                "options": ["Raúl", "Fernando Morientes", "Rivaldo", "Ronaldo"],
-                "answer": "Raúl"
-            },
-            {
-                "question": "Which team won La Liga in the 1948-1949 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Atlético Madrid"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1960s?",
-                "options": ["Hugo Sánchez", "Emilio Butragueño", "Michael Laudrup", "Jorge Valdano"],
-                "answer": "Hugo Sánchez"
-            },
-            {
-                "question": "Which club won La Liga in the 1980-1981 season?",
-                "options": ["Real Sociedad", "Real Madrid", "Barcelona", "Atlético Madrid"],
-                "answer": "Real Sociedad"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1950s?",
-                "options": ["Mario Kempes", "Fernando Torres", "Ronaldo", "Luis Suárez"],
-                "answer": "Mario Kempes"
-            },
-            {
-                "question": "Which team won La Liga in the 1994-1995 season?",
-                "options": ["Real Madrid", "Barcelona", "Deportivo La Coruña", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1940s?",
-                "options": ["Paco Gento", "Luis Suárez", "Johan Cruyff", "Alfredo Di Stéfano"],
-                "answer": "Paco Gento"
-            },
-            {
-                "question": "Which club won La Liga in the 1934-1935 season?",
-                "options": ["Real Betis", "Barcelona", "Real Madrid", "Atlético Madrid"],
-                "answer": "Real Betis"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1930s?",
-                "options": ["Telmo Zarra", "Alfredo Di Stéfano", "Ladislao Kubala", "Paco Gento"],
-                "answer": "Telmo Zarra"
-            },
-            {
-                "question": "Which team won La Liga in the 1958-1959 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Atlético Madrid"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1920s?",
-                "options": ["Telmo Zarra", "César Rodríguez", "Alfredo Di Stéfano", "Ladislao Kubala"],
-                "answer": "Telmo Zarra"
-            },
-            {
-                "question": "Which club won La Liga in the 1964-1965 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1910s?",
-                "options": ["César Rodríguez", "Guillermo Gorostiza", "Isidro Lángara", "Telmo Zarra"],
-                "answer": "Guillermo Gorostiza"
-            },
-            {
-                "question": "Which team won La Liga in the 1982-1983 season?",
-                "options": ["Athletic Bilbao", "Real Madrid", "Barcelona", "Atlético Madrid"],
-                "answer": "Athletic Bilbao"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1900s?",
-                "options": ["Telmo Zarra", "Guillermo Gorostiza", "Isidro Lángara", "César Rodríguez"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which club won La Liga in the 1998-1999 season?",
-                "options": ["Barcelona", "Real Madrid", "Valencia", "Deportivo La Coruña"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1890s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which team won La Liga in the 1993-1994 season?",
-                "options": ["Barcelona", "Real Madrid", "Deportivo La Coruña", "Valencia"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1880s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which club won La Liga in the 2000-2001 season?",
-                "options": ["Real Madrid", "Barcelona", "Deportivo La Coruña", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1870s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which team won La Liga in the 1984-1985 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Athletic Bilbao"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1860s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which club won La Liga in the 1972-1973 season?",
-                "options": ["Atlético Madrid", "Real Madrid", "Barcelona", "Valencia"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1850s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which team won La Liga in the 1945-1946 season?",
-                "options": ["Sevilla", "Real Madrid", "Barcelona", "Valencia"],
-                "answer": "Sevilla"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1840s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which club won La Liga in the 1997-1998 season?",
-                "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Deportivo La Coruña"],
-                "answer": "Barcelona"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1830s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which team won La Liga in the 2001-2002 season?",
-                "options": ["Valencia", "Real Madrid", "Deportivo La Coruña", "Barcelona"],
-                "answer": "Valencia"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1820s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which club won La Liga in the 1946-1947 season?",
-                "options": ["Valencia", "Real Madrid", "Barcelona", "Atlético Madrid"],
-                "answer": "Valencia"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1810s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which team won La Liga in the 1943-1944 season?",
-                "options": ["Valencia", "Real Madrid", "Barcelona", "Atlético Madrid"],
-                "answer": "Valencia"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1800s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which club won La Liga in the 1966-1967 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1790s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which team won La Liga in the 1962-1963 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1780s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which club won La Liga in the 1949-1950 season?",
-                "options": ["Atlético Madrid", "Barcelona", "Real Madrid", "Valencia"],
-                "answer": "Atlético Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1770s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which team won La Liga in the 1956-1957 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1760s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            },
-            {
-                "question": "Which club won La Liga in the 1963-1964 season?",
-                "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
-                "answer": "Real Madrid"
-            },
-            {
-                "question": "Which player holds the record for the most La Liga goals by a player born in the 1750s?",
-                "options": ["Isidro Lángara", "Guillermo Gorostiza", "César Rodríguez", "Telmo Zarra"],
-                "answer": "Isidro Lángara"
-            }
-        ]
+        "questions": [
+                {
+                    "question": "Which team won the first-ever La Liga title in 1929?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Athletic Bilbao"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player has scored the most goals in La Liga history?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra", "Raúl"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which team has won the most Copa del Rey titles?",
+                    "options": ["Real Madrid", "Barcelona", "Athletic Bilbao", "Sevilla"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Who is the all-time top scorer in Copa del Rey history?",
+                    "options": ["Telmo Zarra", "Lionel Messi", "César Rodríguez", "Raúl"],
+                    "answer": "Telmo Zarra"
+                },
+                {
+                    "question": "Which team has won the most Supercopa de España titles?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Deportivo La Coruña"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Who won the 2023-2024 La Liga title?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Real Sociedad"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which goalkeeper has the most clean sheets in La Liga history?",
+                    "options": ["Andoni Zubizarreta", "Iker Casillas", "Victor Valdés", "Jan Oblak"],
+                    "answer": "Andoni Zubizarreta"
+                },
+                {
+                    "question": "Which team was relegated from La Liga most recently in 2024?",
+                    "options": ["Elche", "Granada", "Espanyol", "Alavés"],
+                    "answer": "Elche"
+                },
+                {
+                    "question": "Who is the manager with the most La Liga titles?",
+                    "options": ["Miguel Muñoz", "Pep Guardiola", "Zinedine Zidane", "Johan Cruyff"],
+                    "answer": "Miguel Muñoz"
+                },
+                {
+                    "question": "Which player has made the most appearances in La Liga history?",
+                    "options": ["Raúl", "Andoni Zubizarreta", "Lionel Messi", "Xavi"],
+                    "answer": "Andoni Zubizarreta"
+                },
+                {
+                    "question": "Which team holds the record for the longest unbeaten streak in La Liga?",
+                    "options": ["Real Madrid", "Barcelona", "Real Sociedad", "Atlético Madrid"],
+                    "answer": "Real Sociedad"
+                },
+                {
+                    "question": "Who is the youngest player to debut in La Liga?",
+                    "options": ["Lamine Yamal", "Ansu Fati", "Vicente del Bosque", "Samuel Eto'o"],
+                    "answer": "Lamine Yamal"
+                },
+                {
+                    "question": "Which club won the 2023-2024 Copa del Rey?",
+                    "options": ["Real Madrid", "Osasuna", "Real Betis", "Athletic Bilbao"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who is the youngest player to score in a Copa del Rey final?",
+                    "options": ["Ansu Fati", "Lionel Messi", "Bojan Krkic", "Raúl"],
+                    "answer": "Bojan Krkic"
+                },
+                {
+                    "question": "Which team has won the most consecutive La Liga titles?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Athletic Bilbao"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who is the oldest player to score in a La Liga match?",
+                    "options": ["Joaquín", "Aritz Aduriz", "Dani Alves", "Donato"],
+                    "answer": "Donato"
+                },
+                {
+                    "question": "Which stadium has hosted the most Copa del Rey finals?",
+                    "options": ["Camp Nou", "Santiago Bernabéu", "Mestalla", "Vicente Calderón"],
+                    "answer": "Santiago Bernabéu"
+                },
+                {
+                    "question": "Who won the Supercopa de España in 2023?",
+                    "options": ["Real Madrid", "Barcelona", "Athletic Bilbao", "Atlético Madrid"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Which team has been relegated the most times from La Liga?",
+                    "options": ["Real Betis", "Deportivo La Coruña", "Mallorca", "Real Zaragoza"],
+                    "answer": "Real Betis"
+                },
+                {
+                    "question": "Which player has won the most La Liga titles as a player?",
+                    "options": ["Lionel Messi", "Andrés Iniesta", "Sergio Ramos", "Xavi"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which team holds the record for the highest points total in a La Liga season?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player has scored the most hat-tricks in La Liga?",
+                    "options": ["Cristiano Ronaldo", "Lionel Messi", "Telmo Zarra", "Luis Suárez"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Who is the all-time top scorer for Real Madrid in La Liga?",
+                    "options": ["Cristiano Ronaldo", "Raúl", "Karim Benzema", "Alfredo Di Stéfano"],
+                    "answer": "Cristiano Ronaldo"
+                },
+                {
+                    "question": "Which manager has the most Copa del Rey titles?",
+                    "options": ["Luis Aragonés", "Miguel Muñoz", "Johan Cruyff", "Ernesto Valverde"],
+                    "answer": "Johan Cruyff"
+                },
+                {
+                    "question": "Who was the top scorer in La Liga for the 2023-2024 season?",
+                    "options": ["Robert Lewandowski", "Karim Benzema", "Vinícius Júnior", "Antoine Griezmann"],
+                    "answer": "Robert Lewandowski"
+                },
+                {
+                    "question": "Which club has played the most seasons in La Liga?",
+                    "options": ["Real Madrid", "Barcelona", "Athletic Bilbao", "Valencia"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Which team was the first to win the La Liga, Copa del Rey, and Supercopa de España in the same season?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Sevilla"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which team has won the most home matches in a single La Liga season?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Who was the first player to score five goals in a single La Liga match?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Fernando Morientes", "Bata"],
+                    "answer": "Bata"
+                },
+                {
+                    "question": "Which team won the 2023-2024 Supercopa de España?",
+                    "options": ["Real Madrid", "Barcelona", "Athletic Bilbao", "Atlético Madrid"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Which La Liga team has the most consecutive draws in a season?",
+                    "options": ["Real Sociedad", "Espanyol", "Levante", "Mallorca"],
+                    "answer": "Levante"
+                },
+                {
+                    "question": "Who has the record for the most assists in a single La Liga season?",
+                    "options": ["Lionel Messi", "Xavi", "Luis Figo", "Andrés Iniesta"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which club has the longest unbeaten run at home in La Liga?",
+                    "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Athletic Bilbao"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which team won La Liga with the lowest points total in the 21st century?",
+                    "options": ["Valencia", "Deportivo La Coruña", "Real Madrid", "Barcelona"],
+                    "answer": "Valencia"
+                },
+                {
+                    "question": "Who scored the fastest goal in Copa del Rey history?",
+                    "options": ["David Villa", "Fernando Torres", "Raúl", "José Iraragorri"],
+                    "answer": "José Iraragorri"
+                },
+                {
+                    "question": "Which team won the first Copa del Rey?",
+                    "options": ["Athletic Bilbao", "Real Madrid", "Barcelona", "Real Sociedad"],
+                    "answer": "Athletic Bilbao"
+                },
+                {
+                    "question": "Which team was the first to win the Supercopa de España?",
+                    "options": ["Real Sociedad", "Real Madrid", "Barcelona", "Athletic Bilbao"],
+                    "answer": "Real Sociedad"
+                },
+                {
+                    "question": "Who is the only player to have scored in every minute of a La Liga match?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Raúl", "Karim Benzema"],
+                    "answer": "Cristiano Ronaldo"
+                },
+                {
+                    "question": "Which team has the most consecutive La Liga victories?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Real Sociedad"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Which La Liga club has the oldest stadium still in use?",
+                    "options": ["Athletic Bilbao", "Barcelona", "Real Madrid", "Real Betis"],
+                    "answer": "Athletic Bilbao"
+                },
+                {
+                    "question": "Who scored the most goals in a single Copa del Rey season?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra", "Fernando Morientes"],
+                    "answer": "Telmo Zarra"
+                },
+                {
+                    "question": "Which team has won the most La Liga titles in the 21st century?",
+                    "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Valencia"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which club won La Liga in the 2013-2014 season?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
+                    "answer": "Atlético Madrid"
+                },
+                {
+                    "question": "Who is the youngest manager to win La Liga?",
+                    "options": ["Pep Guardiola", "Zinedine Zidane", "Miguel Muñoz", "Luis Enrique"],
+                    "answer": "Miguel Muñoz"
+                },
+                {
+                    "question": "Which team has the most wins in El Clásico in all competitions?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who won the 2024-2025 Supercopa de España?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Real Betis"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Which player has won the most Copa del Rey titles?",
+                    "options": ["Lionel Messi", "Sergio Ramos", "Andrés Iniesta", "Pirri"],
+                    "answer": "Pirri"
+                },
+                {
+                    "question": "Which team has the highest goal difference in a single La Liga season?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player has received the most red cards in La Liga history?",
+                    "options": ["Sergio Ramos", "Xavi Aguado", "Pablo Alfaro", "Fernando Hierro"],
+                    "answer": "Sergio Ramos"
+                },
+                {
+                    "question": "Who was the first player to score 100 goals in La Liga?",
+                    "options": ["Telmo Zarra", "César Rodríguez", "Pahiño", "Quini"],
+                    "answer": "Telmo Zarra"
+                },
+                {
+                    "question": "Which club won the first Supercopa de España in its current format?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Athletic Bilbao"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who is the only player to have won La Liga with both Real Madrid and Barcelona?",
+                    "options": ["Samuel Eto'o", "Luis Figo", "Michael Laudrup", "Ronaldo Nazário"],
+                    "answer": "Luis Figo"
+                },
+                {
+                    "question": "Which team won the 2018-2019 La Liga title?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Who was the first non-Spanish manager to win La Liga?",
+                    "options": ["Helenio Herrera", "Vic Buckingham", "Luis Molowny", "Bobby Robson"],
+                    "answer": "Helenio Herrera"
+                },
+                {
+                    "question": "Which player has the most assists in La Liga history?",
+                    "options": ["Lionel Messi", "Xavi", "Andrés Iniesta", "Cristiano Ronaldo"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which player has the most appearances in El Clásico history?",
+                    "options": ["Lionel Messi", "Sergio Ramos", "Xavi", "Iker Casillas"],
+                    "answer": "Sergio Ramos"
+                },
+                {
+                    "question": "Which club won La Liga in the 1999-2000 season?",
+                    "options": ["Deportivo La Coruña", "Barcelona", "Real Madrid", "Valencia"],
+                    "answer": "Deportivo La Coruña"
+                },
+                {
+                    "question": "Who scored the winning goal in the 2023-2024 Copa del Rey final?",
+                    "options": ["Vinícius Júnior", "Karim Benzema", "Rodrygo", "Luka Modrić"],
+                    "answer": "Rodrygo"
+                },
+                {
+                    "question": "Which team holds the record for the most goals scored in a single La Liga match?",
+                    "options": ["Athletic Bilbao", "Real Madrid", "Barcelona", "Sevilla"],
+                    "answer": "Athletic Bilbao"
+                },
+                {
+                    "question": "Who was the top assist provider in La Liga during the 2023-2024 season?",
+                    "options": ["Antoine Griezmann", "Pedri", "Luka Modrić", "Ousmane Dembélé"],
+                    "answer": "Antoine Griezmann"
+                },
+                {
+                    "question": "Which player holds the record for the most penalties scored in La Liga?",
+                    "options": ["Cristiano Ronaldo", "Lionel Messi", "Hugo Sánchez", "Ferenc Puskás"],
+                    "answer": "Cristiano Ronaldo"
+                },
+                {
+                    "question": "Which club has won the most Basque derbies in La Liga?",
+                    "options": ["Athletic Bilbao", "Real Sociedad", "Deportivo Alavés", "Osasuna"],
+                    "answer": "Athletic Bilbao"
+                },
+                {
+                    "question": "Who is the all-time top scorer in Basque derbies in La Liga?",
+                    "options": ["Telmo Zarra", "Aritz Aduriz", "Iñaki Williams", "Xabi Prieto"],
+                    "answer": "Telmo Zarra"
+                },
+                {
+                    "question": "Which team has the most wins in Madrid derbies in La Liga?",
+                    "options": ["Real Madrid", "Atlético Madrid", "Getafe", "Rayo Vallecano"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Which club has the longest winning streak in a single La Liga season?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Real Sociedad"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who scored the fastest goal in La Liga history?",
+                    "options": ["José Ángel Ziganda", "Karim Benzema", "Lionel Messi", "Seydou Keita"],
+                    "answer": "Seydou Keita"
+                },
+                {
+                    "question": "Which team won the 2011-2012 La Liga title?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who was the manager of Barcelona during their historic 2008-2009 treble-winning season?",
+                    "options": ["Pep Guardiola", "Frank Rijkaard", "Tito Vilanova", "Luis Enrique"],
+                    "answer": "Pep Guardiola"
+                },
+                {
+                    "question": "Which club won the 2023-2024 Segunda División title?",
+                    "options": ["Espanyol", "Real Zaragoza", "Levante", "Granada"],
+                    "answer": "Espanyol"
+                },
+                {
+                    "question": "Which team holds the record for the most consecutive home wins in La Liga?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Sevilla"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player has scored the most goals in Madrid derbies in La Liga?",
+                    "options": ["Cristiano Ronaldo", "Raúl", "Alfredo Di Stéfano", "Karim Benzema"],
+                    "answer": "Cristiano Ronaldo"
+                },
+                {
+                    "question": "Who was the first Spanish player to win the Ballon d'Or while playing in La Liga?",
+                    "options": ["Luis Suárez", "Alfredo Di Stéfano", "Amancio Amaro", "Francisco Gento"],
+                    "answer": "Luis Suárez"
+                },
+                {
+                    "question": "Which team won La Liga with the highest goal difference in the 21st century?",
+                    "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Valencia"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Who is the all-time top scorer for Barcelona in La Liga?",
+                    "options": ["Lionel Messi", "César Rodríguez", "Samuel Eto'o", "Luis Suárez"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which team was the first to reach 100 points in a La Liga season?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Deportivo La Coruña"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Which player has scored the most headed goals in La Liga history?",
+                    "options": ["Cristiano Ronaldo", "Fernando Llorente", "Karim Benzema", "Aritz Aduriz"],
+                    "answer": "Cristiano Ronaldo"
+                },
+                {
+                    "question": "Which club has won the most Valencian derbies in La Liga?",
+                    "options": ["Valencia", "Villarreal", "Levante", "Hércules"],
+                    "answer": "Valencia"
+                },
+                {
+                    "question": "Who was the first African player to win the Pichichi Trophy?",
+                    "options": ["Samuel Eto'o", "Frederic Kanouté", "George Weah", "Nwankwo Kanu"],
+                    "answer": "Samuel Eto'o"
+                },
+                {
+                    "question": "Which team won the Copa del Rey in the 2016-2017 season?",
+                    "options": ["Barcelona", "Real Madrid", "Sevilla", "Atlético Madrid"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player has won the most Zamora Trophies for the best goalkeeper in La Liga?",
+                    "options": ["Victor Valdés", "Jan Oblak", "Iker Casillas", "Andoni Zubizarreta"],
+                    "answer": "Victor Valdés"
+                },
+                {
+                    "question": "Which club won the 2022-2023 La Liga title?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Real Sociedad"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Who was the first player to score 50 goals in a single La Liga season?",
+                    "options": ["Cristiano Ronaldo", "Lionel Messi", "Raúl", "Telmo Zarra"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which player has the most appearances for a single club in La Liga history?",
+                    "options": ["Lionel Messi", "Xavi", "Andoni Zubizarreta", "Raúl"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which team won La Liga in the 2003-2004 season?",
+                    "options": ["Valencia", "Real Madrid", "Barcelona", "Deportivo La Coruña"],
+                    "answer": "Valencia"
+                },
+                {
+                    "question": "Who scored the winning goal in the 2020-2021 Copa del Rey final?",
+                    "options": ["Lionel Messi", "Antoine Griezmann", "Iñaki Williams", "Gerard Moreno"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which player has the most assists in El Clásico history?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Xavi", "Andrés Iniesta"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which team holds the record for the most consecutive losses in a La Liga season?",
+                    "options": ["Sporting Gijón", "Levante", "Granada", "Rayo Vallecano"],
+                    "answer": "Sporting Gijón"
+                },
+                {
+                    "question": "Which player has the most appearances for Real Madrid in La Liga?",
+                    "options": ["Raúl", "Iker Casillas", "Sergio Ramos", "Karim Benzema"],
+                    "answer": "Raúl"
+                },
+                {
+                    "question": "Which team has the most victories in the Catalan derby in La Liga?",
+                    "options": ["Barcelona", "Espanyol", "Girona", "Lleida"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Who is the youngest player to score a hat-trick in La Liga history?",
+                    "options": ["Lionel Messi", "Ansu Fati", "Raúl", "Bojan Krkic"],
+                    "answer": "Ansu Fati"
+                },
+                {
+                    "question": "Which player has the most red cards in El Clásico history?",
+                    "options": ["Sergio Ramos", "Pep Guardiola", "Ronald Koeman", "Luis Suárez"],
+                    "answer": "Sergio Ramos"
+                },
+                {
+                    "question": "Which team holds the record for the longest unbeaten streak in La Liga?",
+                    "options": ["Barcelona", "Real Sociedad", "Real Madrid", "Atlético Madrid"],
+                    "answer": "Real Sociedad"
+                },
+                {
+                    "question": "Who is the all-time top scorer in the Catalan derby in La Liga?",
+                    "options": ["Lionel Messi", "Raúl Tamudo", "César Rodríguez", "Luis Suárez"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which club was the first to win the Copa del Rey three consecutive times?",
+                    "options": ["Real Madrid", "Barcelona", "Athletic Bilbao", "Sevilla"],
+                    "answer": "Athletic Bilbao"
+                },
+                {
+                    "question": "Which player holds the record for the most goals scored in El Clásico?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Alfredo Di Stéfano", "Raúl"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which player has won the most El Clásico matches?",
+                    "options": ["Lionel Messi", "Sergio Ramos", "Xavi", "Iker Casillas"],
+                    "answer": "Sergio Ramos"
+                },
+                {
+                    "question": "Which team won the 1991-1992 La Liga title?",
+                    "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Valencia"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player has won the most Pichichi Trophies?",
+                    "options": ["Telmo Zarra", "Lionel Messi", "Cristiano Ronaldo", "Hugo Sánchez"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which team has the most victories in the Andalusian derby in La Liga?",
+                    "options": ["Real Betis", "Sevilla", "Granada", "Málaga"],
+                    "answer": "Sevilla"
+                },
+                {
+                    "question": "Which player has the most goals in Madrid derbies?",
+                    "options": ["Cristiano Ronaldo", "Karim Benzema", "Raúl", "Fernando Morientes"],
+                    "answer": "Cristiano Ronaldo"
+                },
+                {
+                    "question": "Who is the youngest player to win the Copa del Rey?",
+                    "options": ["Ansu Fati", "Lionel Messi", "Gavi", "Vicente del Bosque"],
+                    "answer": "Gavi"
+                },
+                {
+                    "question": "Which team won the 2014-2015 Copa del Rey?",
+                    "options": ["Barcelona", "Athletic Bilbao", "Real Madrid", "Sevilla"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player has scored the most goals in the Andalusian derby?",
+                    "options": ["Frederic Kanouté", "Diego Maradona", "Luis Fabiano", "Rubén Castro"],
+                    "answer": "Frederic Kanouté"
+                },
+                {
+                    "question": "Who was the first non-European player to win the Ballon d'Or while playing in La Liga?",
+                    "options": ["Diego Maradona", "Ronaldo Nazário", "Ronaldinho", "Romário"],
+                    "answer": "Ronaldo Nazário"
+                },
+                {
+                    "question": "Which team won the 2023-2024 La Liga title?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Real Sociedad"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which team holds the record for the longest unbeaten run at home in La Liga?",
+                    "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Athletic Bilbao"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Who was the first goalkeeper to win the Zamora Trophy for three consecutive seasons?",
+                    "options": ["Ricardo Zamora", "Victor Valdés", "Jan Oblak", "José Ángel Iribar"],
+                    "answer": "Ricardo Zamora"
+                },
+                {
+                    "question": "Which player has the most goals in the Basque derby?",
+                    "options": ["Telmo Zarra", "Aritz Aduriz", "Raúl García", "Fernando Llorente"],
+                    "answer": "Telmo Zarra"
+                },
+                {
+                    "question": "Which team won the 2012-2013 La Liga title?",
+                    "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Valencia"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player has made the most appearances for Barcelona in La Liga?",
+                    "options": ["Lionel Messi", "Xavi", "Andrés Iniesta", "Carles Puyol"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which club has won the most derbies in Seville?",
+                    "options": ["Sevilla", "Real Betis", "Málaga", "Granada"],
+                    "answer": "Sevilla"
+                },
+                {
+                    "question": "Which player holds the record for the most goals in a single Andalusian derby?",
+                    "options": ["Frederic Kanouté", "Rubén Castro", "Diego Maradona", "Davor Šuker"],
+                    "answer": "Frederic Kanouté"
+                },
+                {
+                    "question": "Which club has won the most Segunda División titles?",
+                    "options": ["Real Betis", "Sporting Gijón", "Real Murcia", "Levante"],
+                    "answer": "Real Murcia"
+                },
+                {
+                    "question": "Which player has the record for the fastest hat-trick in La Liga history?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "David Villa", "Bafétimbi Gomis"],
+                    "answer": "Bafétimbi Gomis"
+                },
+                {
+                    "question": "Which club has the most runners-up finishes in La Liga history?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who was the first player to win the European Golden Shoe while playing in La Liga?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Hugo Sánchez", "Diego Forlán"],
+                    "answer": "Hugo Sánchez"
+                },
+                {
+                    "question": "Which team won the 1995-1996 La Liga title?",
+                    "options": ["Atlético Madrid", "Real Madrid", "Barcelona", "Valencia"],
+                    "answer": "Atlético Madrid"
+                },
+                {
+                    "question": "Who was the first coach to win the La Liga title with Atlético Madrid?",
+                    "options": ["Ricardo Zamora", "Helenio Herrera", "Luis Aragonés", "Diego Simeone"],
+                    "answer": "Ricardo Zamora"
+                },
+                {
+                    "question": "Which club has won the most matches in a single La Liga season?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Deportivo La Coruña"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who is the youngest player to debut for Real Madrid in La Liga?",
+                    "options": ["Raúl", "Vinícius Júnior", "Luka Modrić", "Eduardo Camavinga"],
+                    "answer": "Raúl"
+                },
+                {
+                    "question": "Which player scored the winning goal in the 2019 Copa del Rey final?",
+                    "options": ["Lionel Messi", "Rodrigo", "Antoine Griezmann", "Sergio Ramos"],
+                    "answer": "Rodrigo"
+                },
+                {
+                    "question": "Which player has the most goals in a single Copa del Rey final?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra", "César Rodríguez"],
+                    "answer": "Telmo Zarra"
+                },
+                {
+                    "question": "Which team holds the record for the fewest goals conceded in a single La Liga season?",
+                    "options": ["Atlético Madrid", "Barcelona", "Real Madrid", "Valencia"],
+                    "answer": "Atlético Madrid"
+                },
+                {
+                    "question": "Who is the oldest player to play in a Copa del Rey final?",
+                    "options": ["Dani Alves", "Alfredo Di Stéfano", "Joaquín", "Ricardo Zamora"],
+                    "answer": "Joaquín"
+                },
+                {
+                    "question": "Which team won La Liga in the 1983-1984 season?",
+                    "options": ["Athletic Bilbao", "Real Madrid", "Barcelona", "Atlético Madrid"],
+                    "answer": "Athletic Bilbao"
+                },
+                {
+                    "question": "Which player holds the record for the most consecutive appearances in La Liga?",
+                    "options": ["Andoni Zubizarreta", "Raúl", "Juan Antonio Larrañaga", "Lionel Messi"],
+                    "answer": "Juan Antonio Larrañaga"
+                },
+                {
+                    "question": "Which club won the Copa del Rey in the 2004-2005 season?",
+                    "options": ["Real Betis", "Osasuna", "Barcelona", "Real Madrid"],
+                    "answer": "Real Betis"
+                },
+                {
+                    "question": "Which team was the first to win the La Liga title under the current 3 points per win system?",
+                    "options": ["Real Madrid", "Barcelona", "Deportivo La Coruña", "Valencia"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who is the only player to have won the Supercopa de España with three different clubs?",
+                    "options": ["David Villa", "Luis Enrique", "Samuel Eto'o", "Raúl"],
+                    "answer": "David Villa"
+                },
+                {
+                    "question": "Which club holds the record for the longest winless streak in La Liga history?",
+                    "options": ["Levante", "Sporting Gijón", "Osasuna", "Granada"],
+                    "answer": "Sporting Gijón"
+                },
+                {
+                    "question": "Which player has won the most La Liga titles with Atlético Madrid?",
+                    "options": ["Fernando Torres", "Gabi", "Koke", "Adelardo Rodríguez"],
+                    "answer": "Adelardo Rodríguez"
+                },
+                {
+                    "question": "Who is the youngest coach to win La Liga?",
+                    "options": ["Miguel Muñoz", "Pep Guardiola", "Zinedine Zidane", "Luis Enrique"],
+                    "answer": "Miguel Muñoz"
+                },
+                {
+                    "question": "Which player holds the record for the most consecutive La Liga titles won?",
+                    "options": ["Cristiano Ronaldo", "Xavi", "Lionel Messi", "Paco Gento"],
+                    "answer": "Paco Gento"
+                },
+                {
+                    "question": "Which player has the most goals in a single La Liga season by a non-Spanish player?",
+                    "options": ["Cristiano Ronaldo", "Lionel Messi", "Luis Suárez", "Karim Benzema"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which club has the most victories in the Galician derby in La Liga?",
+                    "options": ["Deportivo La Coruña", "Celta Vigo", "Pontevedra", "Lugo"],
+                    "answer": "Deportivo La Coruña"
+                },
+                {
+                    "question": "Which player scored the winning goal in the 2021 Copa del Rey final?",
+                    "options": ["Lionel Messi", "Antoine Griezmann", "Iñaki Williams", "Gerard Moreno"],
+                    "answer": "Iñaki Williams"
+                },
+                {
+                    "question": "Which player holds the record for the most goals scored in the Galician derby?",
+                    "options": ["Roy Makaay", "Iago Aspas", "Bebeto", "Fran"],
+                    "answer": "Iago Aspas"
+                },
+                {
+                    "question": "Which team won the 1997-1998 La Liga title?",
+                    "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Valencia"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Who is the only player to have won La Liga, Copa del Rey, and Supercopa de España as both a player and a coach?",
+                    "options": ["Pep Guardiola", "Luis Enrique", "Zinedine Zidane", "Diego Simeone"],
+                    "answer": "Pep Guardiola"
+                },
+                {
+                    "question": "Which club won the Copa del Rey in the 2009-2010 season?",
+                    "options": ["Sevilla", "Barcelona", "Real Madrid", "Atlético Madrid"],
+                    "answer": "Sevilla"
+                },
+                {
+                    "question": "Which player has the most goals in a single La Liga season by a midfielder?",
+                    "options": ["Cristiano Ronaldo", "Lionel Messi", "Zinedine Zidane", "Gareth Bale"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which team won the first-ever Copa del Rey final held at the Vicente Calderón Stadium?",
+                    "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Athletic Bilbao"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player has the most assists in a single Copa del Rey season?",
+                    "options": ["Lionel Messi", "Xavi", "Andrés Iniesta", "Cristiano Ronaldo"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Who was the top scorer in the 2022-2023 Copa del Rey?",
+                    "options": ["Robert Lewandowski", "Karim Benzema", "Vinícius Júnior", "Álvaro Morata"],
+                    "answer": "Robert Lewandowski"
+                },
+                {
+                    "question": "Which team has won the most consecutive Supercopa de España titles?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Athletic Bilbao"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who is the oldest player to play in La Liga?",
+                    "options": ["Dani Alves", "Joaquín", "Ricardo López", "Donato"],
+                    "answer": "Donato"
+                },
+                {
+                    "question": "Which club won the Supercopa de España in the 2020-2021 season?",
+                    "options": ["Real Madrid", "Barcelona", "Athletic Bilbao", "Atlético Madrid"],
+                    "answer": "Athletic Bilbao"
+                },
+                {
+                    "question": "Which player has scored the most goals in the Madrid derby in a single season?",
+                    "options": ["Cristiano Ronaldo", "Karim Benzema", "Raúl", "Alfredo Di Stéfano"],
+                    "answer": "Cristiano Ronaldo"
+                },
+                {
+                    "question": "Which team won the 1993-1994 La Liga title?",
+                    "options": ["Barcelona", "Real Madrid", "Deportivo La Coruña", "Valencia"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which goalkeeper has the most appearances in La Liga history?",
+                    "options": ["Andoni Zubizarreta", "Iker Casillas", "Victor Valdés", "Jan Oblak"],
+                    "answer": "Andoni Zubizarreta"
+                },
+                {
+                    "question": "Which team won the Copa del Rey in the 2013-2014 season?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Sevilla"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Which player has the most assists in Madrid derbies?",
+                    "options": ["Cristiano Ronaldo", "Lionel Messi", "Karim Benzema", "Xabi Alonso"],
+                    "answer": "Karim Benzema"
+                },
+                {
+                    "question": "Which club has the most victories in the Asturias derby in La Liga?",
+                    "options": ["Sporting Gijón", "Real Oviedo", "Celta Vigo", "Deportivo La Coruña"],
+                    "answer": "Sporting Gijón"
+                },
+                {
+                    "question": "Who was the first goalkeeper to keep 100 clean sheets in La Liga?",
+                    "options": ["Ricardo Zamora", "Andoni Zubizarreta", "Iker Casillas", "Victor Valdés"],
+                    "answer": "Ricardo Zamora"
+                },
+                {
+                    "question": "Which player has won the most Supercopa de España titles?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Xavi", "Sergio Ramos"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which club holds the record for the most La Liga draws in a single season?",
+                    "options": ["Real Sociedad", "Valencia", "Espanyol", "Levante"],
+                    "answer": "Real Sociedad"
+                },
+                {
+                    "question": "Who was the first player to win the Pichichi Trophy three times?",
+                    "options": ["Telmo Zarra", "Hugo Sánchez", "Alfredo Di Stéfano", "Ferenc Puskás"],
+                    "answer": "Telmo Zarra"
+                },
+                {
+                    "question": "Which club won the 2017-2018 Copa del Rey?",
+                    "options": ["Barcelona", "Real Madrid", "Sevilla", "Valencia"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player has scored the most goals in the Basque derby in a single season?",
+                    "options": ["Telmo Zarra", "Iñaki Williams", "Aritz Aduriz", "Raúl García"],
+                    "answer": "Telmo Zarra"
+                },
+                {
+                    "question": "Who was the first player to score in four consecutive Copa del Rey finals?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra", "Raúl"],
+                    "answer": "Telmo Zarra"
+                },
+                {
+                    "question": "Which team won La Liga in the 1992-1993 season?",
+                    "options": ["Barcelona", "Real Madrid", "Deportivo La Coruña", "Valencia"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player holds the record for the most consecutive appearances in El Clásico?",
+                    "options": ["Sergio Ramos", "Lionel Messi", "Xavi", "Gerard Piqué"],
+                    "answer": "Sergio Ramos"
+                },
+                {
+                    "question": "Which team won the Copa del Rey in the 2015-2016 season?",
+                    "options": ["Barcelona", "Sevilla", "Real Madrid", "Atlético Madrid"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Who was the first player to score a hat-trick in a Copa del Rey final?",
+                    "options": ["Telmo Zarra", "Lionel Messi", "Cristiano Ronaldo", "Alfredo Di Stéfano"],
+                    "answer": "Telmo Zarra"
+                },
+                {
+                    "question": "Which team won La Liga in the 1996-1997 season?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Which player holds the record for the most assists in a single La Liga season?",
+                    "options": ["Lionel Messi", "Xavi", "Luis Figo", "Andrés Iniesta"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which club holds the record for the most consecutive Copa del Rey victories?",
+                    "options": ["Barcelona", "Athletic Bilbao", "Real Madrid", "Sevilla"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player has the most goals in the history of the Supercopa de España?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Raúl", "Karim Benzema"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which team won the 2001-2002 La Liga title?",
+                    "options": ["Valencia", "Real Madrid", "Barcelona", "Deportivo La Coruña"],
+                    "answer": "Valencia"
+                },
+                {
+                    "question": "Which player holds the record for the most own goals in La Liga history?",
+                    "options": ["Sergio Ramos", "Fernando Hierro", "Gerard Piqué", "Manuel Sanchís"],
+                    "answer": "Sergio Ramos"
+                },
+                {
+                    "question": "Which team holds the record for the longest streak without conceding a goal in La Liga?",
+                    "options": ["Atlético Madrid", "Barcelona", "Real Madrid", "Sevilla"],
+                    "answer": "Atlético Madrid"
+                },
+                {
+                    "question": "Who was the first player to score a goal in La Liga history?",
+                    "options": ["Pascual Somma", "Gaspar Rubio", "Guillermo Gorostiza", "Josep Samitier"],
+                    "answer": "Pascual Somma"
+                },
+                {
+                    "question": "Which team won the first La Liga title after the Spanish Civil War?",
+                    "options": ["Valencia", "Barcelona", "Real Madrid", "Athletic Bilbao"],
+                    "answer": "Atlético Aviación"
+                },
+                {
+                    "question": "Who is the youngest player to score in a Copa del Rey final?",
+                    "options": ["Paco Gento", "Iker Muniain", "Lamine Yamal", "Gavi"],
+                    "answer": "Iker Muniain"
+                },
+                {
+                    "question": "Which team has the fewest wins in a single La Liga season?",
+                    "options": ["Sporting Gijón", "Córdoba", "Osasuna", "Granada"],
+                    "answer": "Sporting Gijón"
+                },
+                {
+                    "question": "Which player scored the first hat-trick in El Clásico?",
+                    "options": ["Alfredo Di Stéfano", "Lionel Messi", "Cristiano Ronaldo", "Luis Suárez"],
+                    "answer": "Alfredo Di Stéfano"
+                },
+                {
+                    "question": "Which goalkeeper has the most saves in a single La Liga season?",
+                    "options": ["Jan Oblak", "Iker Casillas", "Thibaut Courtois", "Paco Liaño"],
+                    "answer": "Paco Liaño"
+                },
+                {
+                    "question": "Which team won the Copa del Rey in the 1999-2000 season?",
+                    "options": ["Espanyol", "Barcelona", "Real Madrid", "Valencia"],
+                    "answer": "Espanyol"
+                },
+                {
+                    "question": "Which team has the most consecutive losses in the Supercopa de España?",
+                    "options": ["Valencia", "Athletic Bilbao", "Sevilla", "Atlético Madrid"],
+                    "answer": "Sevilla"
+                },
+                {
+                    "question": "Who was the first player to win the Zamora Trophy?",
+                    "options": ["Ricardo Zamora", "Jacinto Quincoces", "Marcel Domingo", "Antoni Ramallets"],
+                    "answer": "Ricardo Zamora"
+                },
+                {
+                    "question": "Which player holds the record for the most yellow cards in La Liga history?",
+                    "options": ["Sergio Ramos", "Gabi", "Raúl García", "Xavi"],
+                    "answer": "Raúl García"
+                },
+                {
+                    "question": "Which team holds the record for the most points in a single La Liga season without winning the title?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Villarreal"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Which club has won the most derbies in Madrid?",
+                    "options": ["Real Madrid", "Atlético Madrid", "Getafe", "Rayo Vallecano"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who is the oldest player to score in a La Liga match?",
+                    "options": ["Donato", "Joaquín", "Aritz Aduriz", "Dani Alves"],
+                    "answer": "Donato"
+                },
+                {
+                    "question": "Which team has the most Copa del Rey final appearances without a win?",
+                    "options": ["Valencia", "Celta Vigo", "Mallorca", "Osasuna"],
+                    "answer": "Celta Vigo"
+                },
+                {
+                    "question": "Who scored the winning goal in the 2015 Supercopa de España?",
+                    "options": ["Pedro", "Lionel Messi", "Antoine Griezmann", "Neymar"],
+                    "answer": "Pedro"
+                },
+                {
+                    "question": "Which club won the 2011-2012 Supercopa de España?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Athletic Bilbao"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player has the most appearances in Copa del Rey history?",
+                    "options": ["Andoni Zubizarreta", "Lionel Messi", "Sergio Ramos", "Raúl García"],
+                    "answer": "Andoni Zubizarreta"
+                },
+                {
+                    "question": "Which team won La Liga with the fewest goals conceded in the 21st century?",
+                    "options": ["Atlético Madrid", "Real Madrid", "Barcelona", "Sevilla"],
+                    "answer": "Atlético Madrid"
+                },
+                {
+                    "question": "Who holds the record for the most goals scored in a single La Liga match?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Bata", "Telmo Zarra"],
+                    "answer": "Bata"
+                },
+                {
+                    "question": "Which manager has the most La Liga matches managed?",
+                    "options": ["Miguel Muñoz", "Luis Aragonés", "Javier Irureta", "Joaquín Caparrós"],
+                    "answer": "Joaquín Caparrós"
+                },
+                {
+                    "question": "Which player scored the winning goal in the 2003-2004 Copa del Rey final?",
+                    "options": ["Fernando Torres", "Raúl", "Samuel Eto'o", "David Villa"],
+                    "answer": "David Villa"
+                },
+                {
+                    "question": "Which team won the 2014-2015 Supercopa de España?",
+                    "options": ["Barcelona", "Atlético Madrid", "Real Madrid", "Athletic Bilbao"],
+                    "answer": "Athletic Bilbao"
+                },
+                {
+                    "question": "Which player holds the record for the most goals in a single Supercopa de España match?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Raúl", "Karim Benzema"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which club won the most La Liga titles in the 20th century?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Athletic Bilbao"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who was the first non-Spanish manager to win La Liga?",
+                    "options": ["Helenio Herrera", "Vic Buckingham", "Luis Molowny", "Bobby Robson"],
+                    "answer": "Helenio Herrera"
+                },
+                {
+                    "question": "Which team won the Copa del Rey in the 1996-1997 season?",
+                    "options": ["Barcelona", "Real Betis", "Real Madrid", "Atlético Madrid"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player scored the first goal in the newly built San Mamés Stadium?",
+                    "options": ["Aritz Aduriz", "Iker Muniain", "Raúl García", "Inaki Williams"],
+                    "answer": "Aritz Aduriz"
+                },
+                {
+                    "question": "Which team has the fewest draws in a single La Liga season?",
+                    "options": ["Real Madrid", "Real Sociedad", "Atlético Madrid", "Granada"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who scored the most goals in the 2023 Supercopa de España?",
+                    "options": ["Karim Benzema", "Robert Lewandowski", "Vinícius Júnior", "Pedri"],
+                    "answer": "Karim Benzema"
+                },
+                {
+                    "question": "Which player holds the record for the most goals in El Clásico in a single season?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Raúl", "Karim Benzema"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which club won the 2015-2016 Supercopa de España?",
+                    "options": ["Barcelona", "Atlético Madrid", "Real Madrid", "Sevilla"],
+                    "answer": "Athletic Bilbao"
+                },
+                {
+                    "question": "Which player holds the record for the most assists in a single Supercopa de España match?",
+                    "options": ["Lionel Messi", "Xavi", "Andrés Iniesta", "Cristiano Ronaldo"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Who was the first player to win the Copa del Rey with two different clubs?",
+                    "options": ["Ronald Koeman", "Luis Enrique", "David Villa", "Samuel Eto'o"],
+                    "answer": "Ronald Koeman"
+                },
+                {
+                    "question": "Which team won La Liga in the 1990-1991 season?",
+                    "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Valencia"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player holds the record for the most hat-tricks in the Copa del Rey?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra", "Bata"],
+                    "answer": "Telmo Zarra"
+                },
+                {
+                    "question": "Who was the top scorer in La Liga during the 2008-2009 season?",
+                    "options": ["David Villa", "Diego Forlán", "Lionel Messi", "Raúl"],
+                    "answer": "Diego Forlán"
+                },
+                {
+                    "question": "Which team holds the record for the most consecutive La Liga titles in the 21st century?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Who scored the winning goal in the 1999-2000 Supercopa de España?",
+                    "options": ["Raúl", "Lionel Messi", "Cristiano Ronaldo", "Rivaldo"],
+                    "answer": "Raúl"
+                },
+                {
+                    "question": "Which player has the most minutes played in La Liga history?",
+                    "options": ["Lionel Messi", "Raúl", "Andoni Zubizarreta", "Xavi"],
+                    "answer": "Andoni Zubizarreta"
+                },
+                {
+                    "question": "Which club holds the record for the most consecutive Copa del Rey final losses?",
+                    "options": ["Real Madrid", "Valencia", "Athletic Bilbao", "Celta Vigo"],
+                    "answer": "Athletic Bilbao"
+                },
+                {
+                    "question": "Who is the youngest player to score a goal in El Clásico?",
+                    "options": ["Lionel Messi", "Ansu Fati", "Raúl", "Boja Krkic"],
+                    "answer": "Ansu Fati"
+                },
+                {
+                    "question": "Which team won the Copa del Rey in the 1993-1994 season?",
+                    "options": ["Real Zaragoza", "Barcelona", "Real Madrid", "Deportivo La Coruña"],
+                    "answer": "Real Zaragoza"
+                },
+                {
+                    "question": "Who is the only player to score a hat-trick in a Supercopa de España match?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Raúl", "Karim Benzema"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which team won the 1990-1991 Copa del Rey?",
+                    "options": ["Atlético Madrid", "Real Madrid", "Barcelona", "Valencia"],
+                    "answer": "Atlético Madrid"
+                },
+                {
+                    "question": "Which player scored the most goals in a single Copa del Rey season?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra", "Raúl"],
+                    "answer": "Telmo Zarra"
+                },
+                {
+                    "question": "Which club won the 2020-2021 Copa del Rey?",
+                    "options": ["Real Sociedad", "Athletic Bilbao", "Barcelona", "Real Madrid"],
+                    "answer": "Real Sociedad"
+                },
+                {
+                    "question": "Who was the first player to score 40 goals in a single La Liga season?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra", "Hugo Sánchez"],
+                    "answer": "Cristiano Ronaldo"
+                },
+                {
+                    "question": "Which player holds the record for the most red cards in a single La Liga season?",
+                    "options": ["Sergio Ramos", "Fernando Hierro", "Gerard Piqué", "Pablo Alfaro"],
+                    "answer": "Pablo Alfaro"
+                },
+                {
+                    "question": "Which team won the Copa del Rey in the 2006-2007 season?",
+                    "options": ["Sevilla", "Real Madrid", "Barcelona", "Espanyol"],
+                    "answer": "Sevilla"
+                },
+                {
+                    "question": "Which player has the most appearances in El Clásico as a substitute?",
+                    "options": ["Raúl", "Karim Benzema", "Andrés Iniesta", "Marco Asensio"],
+                    "answer": "Andrés Iniesta"
+                },
+                {
+                    "question": "Which team holds the record for the most goals scored in a single Supercopa de España tournament?",
+                    "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Athletic Bilbao"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who was the youngest player to make 100 La Liga appearances?",
+                    "options": ["Raúl", "Lionel Messi", "Ansu Fati", "Bojan Krkic"],
+                    "answer": "Bojan Krkic"
+                },
+                {
+                    "question": "Which player has scored the most goals in a single Supercopa de España tournament?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Raúl", "Karim Benzema"],
+                    "answer": "Karim Benzema"
+                },
+                {
+                    "question": "Which team holds the record for the most goals scored in a single La Liga season?",
+                    "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Valencia"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Which player has won the most La Liga titles with Barcelona?",
+                    "options": ["Lionel Messi", "Xavi", "Andrés Iniesta", "Carles Puyol"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Who was the first player to score in a Copa del Rey final at the Camp Nou?",
+                    "options": ["Telmo Zarra", "Alfredo Di Stéfano", "César Rodríguez", "László Kubala"],
+                    "answer": "César Rodríguez"
+                },
+                {
+                    "question": "Which team has the longest unbeaten home run in La Liga history?",
+                    "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Athletic Bilbao"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player was the first to score five goals in a single Copa del Rey match?",
+                    "options": ["Telmo Zarra", "Lionel Messi", "Cristiano Ronaldo", "Bata"],
+                    "answer": "Bata"
+                },
+                {
+                    "question": "Who holds the record for the most consecutive appearances in La Liga without being substituted?",
+                    "options": ["Andoni Zubizarreta", "Iker Casillas", "Diego Godín", "Raúl"],
+                    "answer": "Andoni Zubizarreta"
+                },
+                {
+                    "question": "Which team won the first Supercopa de España in the 21st century?",
+                    "options": ["Real Madrid", "Barcelona", "Deportivo La Coruña", "Valencia"],
+                    "answer": "Deportivo La Coruña"
+                },
+                {
+                    "question": "Which player holds the record for the most red cards in the history of El Clásico?",
+                    "options": ["Sergio Ramos", "Fernando Hierro", "Luis Figo", "Pepe"],
+                    "answer": "Sergio Ramos"
+                },
+                {
+                    "question": "Who scored the fastest goal in Supercopa de España history?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Raúl", "Karim Benzema"],
+                    "answer": "Karim Benzema"
+                },
+                {
+                    "question": "Which club won the 2002-2003 Copa del Rey?",
+                    "options": ["Real Mallorca", "Real Madrid", "Barcelona", "Sevilla"],
+                    "answer": "Real Mallorca"
+                },
+                {
+                    "question": "Which player has the most goals in the history of the Madrid derby?",
+                    "options": ["Cristiano Ronaldo", "Raúl", "Karim Benzema", "Alfredo Di Stéfano"],
+                    "answer": "Cristiano Ronaldo"
+                },
+                {
+                    "question": "Which team won the 1994-1995 La Liga title?",
+                    "options": ["Real Madrid", "Barcelona", "Deportivo La Coruña", "Valencia"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who was the first player to win the Copa del Rey and the European Cup in the same season?",
+                    "options": ["Alfredo Di Stéfano", "Paco Gento", "Luis Suárez", "Ferenc Puskás"],
+                    "answer": "Alfredo Di Stéfano"
+                },
+                {
+                    "question": "Which team has the most appearances in the Supercopa de España?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Athletic Bilbao"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player holds the record for the most consecutive clean sheets in La Liga history?",
+                    "options": ["Thibaut Courtois", "Jan Oblak", "Víctor Valdés", "Iker Casillas"],
+                    "answer": "Víctor Valdés"
+                },
+                {
+                    "question": "Which club has the most consecutive Copa del Rey semi-final appearances?",
+                    "options": ["Real Madrid", "Barcelona", "Athletic Bilbao", "Sevilla"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Who scored the winning goal in the 2017-2018 Copa del Rey final?",
+                    "options": ["Lionel Messi", "Antoine Griezmann", "Luis Suárez", "Andrés Iniesta"],
+                    "answer": "Andrés Iniesta"
+                },
+                {
+                    "question": "Which team holds the record for the longest unbeaten run in Copa del Rey history?",
+                    "options": ["Barcelona", "Real Madrid", "Athletic Bilbao", "Atlético Madrid"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player has the most La Liga assists in the 21st century?",
+                    "options": ["Lionel Messi", "Xavi", "Cristiano Ronaldo", "Andrés Iniesta"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which club won the 2007-2008 Supercopa de España?",
+                    "options": ["Real Madrid", "Barcelona", "Sevilla", "Valencia"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who was the first player to score a hat-trick in a Copa del Rey final at the Santiago Bernabéu?",
+                    "options": ["Telmo Zarra", "Cristiano Ronaldo", "Lionel Messi", "Alfredo Di Stéfano"],
+                    "answer": "Telmo Zarra"
+                },
+                {
+                    "question": "Which team won La Liga with the most points in the 21st century?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player holds the record for the most goals scored in La Liga by a non-European player?",
+                    "options": ["Lionel Messi", "Neymar", "Samuel Eto'o", "Ronaldinho"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which club has the longest run of consecutive seasons in La Liga without relegation?",
+                    "options": ["Real Madrid", "Barcelona", "Athletic Bilbao", "Atlético Madrid"],
+                    "answer": "Athletic Bilbao"
+                },
+                {
+                    "question": "Who was the top scorer in the 2011-2012 La Liga season?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Radamel Falcao", "Gonzalo Higuaín"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which player has the most assists in a single Copa del Rey final?",
+                    "options": ["Xavi", "Lionel Messi", "Cristiano Ronaldo", "Andrés Iniesta"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which team has the most goals scored in a single Copa del Rey season?",
+                    "options": ["Barcelona", "Real Madrid", "Athletic Bilbao", "Sevilla"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Who is the youngest player to score a hat-trick in the Copa del Rey?",
+                    "options": ["Raúl", "Ansu Fati", "Lionel Messi", "Bojan Krkic"],
+                    "answer": "Bojan Krkic"
+                },
+                {
+                    "question": "Which team won the first La Liga title of the 21st century?",
+                    "options": ["Real Madrid", "Barcelona", "Deportivo La Coruña", "Valencia"],
+                    "answer": "Deportivo La Coruña"
+                },
+                {
+                    "question": "Who was the first non-European player to win the Copa del Rey?",
+                    "options": ["Diego Maradona", "Ronaldo Nazário", "Ronaldinho", "Romário"],
+                    "answer": "Romário"
+                },
+                {
+                    "question": "Which player holds the record for the most consecutive appearances in a Copa del Rey final?",
+                    "options": ["Lionel Messi", "Xavi", "Raúl García", "Paco Gento"],
+                    "answer": "Paco Gento"
+                },
+                {
+                    "question": "Which club holds the record for the most consecutive Copa del Rey victories in the 21st century?",
+                    "options": ["Barcelona", "Sevilla", "Real Madrid", "Athletic Bilbao"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which team won the 2010-2011 Supercopa de España?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Sevilla"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player has the most clean sheets in the history of the Copa del Rey?",
+                    "options": ["Andoni Zubizarreta", "Iker Casillas", "Victor Valdés", "Ricardo Zamora"],
+                    "answer": "Andoni Zubizarreta"
+                },
+                {
+                    "question": "Who was the first player to win the Copa del Rey as both a player and a coach?",
+                    "options": ["Johan Cruyff", "Pep Guardiola", "Luis Enrique", "Miguel Muñoz"],
+                    "answer": "Miguel Muñoz"
+                },
+                {
+                    "question": "Which team has the fewest goals conceded in a single Supercopa de España tournament?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
+                    "answer": "Atlético Madrid"
+                },
+                {
+                    "question": "Who scored the winning goal in the 1992 Copa del Rey final?",
+                    "options": ["Michael Laudrup", "Hristo Stoichkov", "Julio Salinas", "José Mari Bakero"],
+                    "answer": "Hristo Stoichkov"
+                },
+                {
+                    "question": "Which player has won the most consecutive La Liga titles?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Xavi", "Paco Gento"],
+                    "answer": "Paco Gento"
+                },
+                {
+                    "question": "Which club has the most consecutive La Liga victories?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Which player has the most minutes played in a single La Liga season?",
+                    "options": ["Andoni Zubizarreta", "Lionel Messi", "Raúl", "Xavi"],
+                    "answer": "Andoni Zubizarreta"
+                },
+                {
+                    "question": "Which team won the 1989-1990 La Liga title?",
+                    "options": ["Real Madrid", "Barcelona", "Atlético Madrid", "Valencia"],
+                    "answer": "Real Madrid"
+                },
+                {
+                    "question": "Who was the top scorer in the 1999-2000 La Liga season?",
+                    "options": ["Raúl", "Rivaldo", "Savio", "Salva Ballesta"],
+                    "answer": "Salva Ballesta"
+                },
+                {
+                    "question": "Which player holds the record for the most goals scored in Copa del Rey finals?",
+                    "options": ["Telmo Zarra", "Lionel Messi", "Cristiano Ronaldo", "Raúl"],
+                    "answer": "Telmo Zarra"
+                },
+                {
+                    "question": "Who was the first goalkeeper to win the Zamora Trophy with two different clubs?",
+                    "options": ["Ricardo Zamora", "Thibaut Courtois", "José Ángel Iribar", "Antoni Ramallets"],
+                    "answer": "Ricardo Zamora"
+                },
+                {
+                    "question": "Which team won the 2017-2018 La Liga title?",
+                    "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Valencia"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Which player holds the record for the most consecutive goals in La Liga matches?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra", "David Villa"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which club has the most victories in the Basque derby?",
+                    "options": ["Athletic Bilbao", "Real Sociedad", "Alavés", "Eibar"],
+                    "answer": "Athletic Bilbao"
+                },
+                {
+                    "question": "Who was the first player to score a hat-trick in the Supercopa de España?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "Raúl", "Ronaldinho"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which team holds the record for the most goals scored in a single Copa del Rey match?",
+                    "options": ["Barcelona", "Real Madrid", "Athletic Bilbao", "Valencia"],
+                    "answer": "Athletic Bilbao"
+                },
+                {
+                    "question": "Who was the first player to score a goal in La Liga's current format?",
+                    "options": ["Lionel Messi", "Cristiano Ronaldo", "David Villa", "Carlos Soler"],
+                    "answer": "Lionel Messi"
+                },
+                {
+                    "question": "Which club has the most consecutive Copa del Rey final wins?",
+                    "options": ["Barcelona", "Real Madrid", "Athletic Bilbao", "Sevilla"],
+                    "answer": "Barcelona"
+                },
+                {
+                    "question": "Who is the youngest player to make an appearance in a Copa del Rey final?",
+                    "options": ["Ansu Fati", "Lamine Yamal", "Gavi", "Pedri"],
+                    "answer": "Lamine Yamal"
+                },
+            ]
+            
+
     },
     {
         "category": "Italian Football",
