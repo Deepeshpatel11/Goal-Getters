@@ -35,7 +35,7 @@ function loadQuestions() {
         .then(data => {
             const selectedCategory = data.find(q => q.category === category);
             if (selectedCategory) {
-                questions = shuffleArray(selectedCategory.questions); // Shuffle the questions
+                questions = shuffleArray(selectedCategory.questions); // Shuffle the questions initially
                 loadNextQuestion(); // Load the first question initially
                 startTimer(); // Start the quiz timer
             }
@@ -51,7 +51,6 @@ function loadQuestions() {
  */
 function applyTheme(category) {
     const body = document.body;
-    console.log("Applying theme for category:", category); // Debugging line
 
     // Clear any existing theme classes
     body.classList.remove('theme-english', 'theme-spanish', 'theme-italian', 'theme-continental');
@@ -69,11 +68,13 @@ function applyTheme(category) {
 }
 
 /**
- * Function to load next question
+ * Function to load the next question
  */
 function loadNextQuestion() {
-    if (currentQuestionIndex < questions.length) {
-        const questionData = questions[currentQuestionIndex];
+    if (questions.length > 0) { // Check if there are questions left
+        const randomIndex = Math.floor(Math.random() * questions.length);
+        const questionData = questions.splice(randomIndex, 1)[0]; // Remove and get a random question
+        
         document.getElementById('question-text').textContent = questionData.question;
 
         const optionsContainer = document.getElementById('options-container');
@@ -81,15 +82,13 @@ function loadNextQuestion() {
 
         // Shuffle options before displaying them
         const shuffledOptions = shuffleArray(questionData.options);
-        
+
         shuffledOptions.forEach(option => {
             const button = document.createElement('button');
             button.textContent = option;
             button.onclick = () => checkAnswer(option, questionData.answer, questionData.question);
             optionsContainer.appendChild(button);
         });
-
-        currentQuestionIndex++;
     } else {
         endQuiz(); // End the quiz if no more questions are left
     }
