@@ -4859,8 +4859,7 @@
                     "options": ["Osasuna", "Granada", "Córdoba", "Rayo Vallecano"],
                     "answer": "Córdoba"
                 },
-            ]
-            [{
+                {
                     "question": "Which team has the most consecutive home wins in La Liga history?",
                     "options": ["Barcelona", "Real Madrid", "Atlético Madrid", "Athletic Bilbao"],
                     "answer": "Barcelona"
