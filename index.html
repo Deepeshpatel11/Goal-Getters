@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Football Quiz - Home</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <header>
         <h1>Football Quiz</h1>
@@ -32,12 +34,23 @@
             <p>High Score: <span id="italian-highscore">0</span> by <span id="italian-highscore-name">N/A</span></p>
 
             <button onclick="startQuiz('Continental Football')">Continental Football</button>
-            <p>High Score: <span id="continental-highscore">0</span> by <span id="continental-highscore-name">N/A</span></p>
+            <p>High Score: <span id="continental-highscore">0</span> by <span id="continental-highscore-name">N/A</span>
+            </p>
         </div>
     </main>
     <footer>
-        <p>© 2024 Football Quiz. All rights reserved.</p>
+        <ul id="social-network">
+            <li><a href="https://github.com/Deepeshpatel11" target="_blank" rel="noopener"
+                    aria-label="Visit my GitHub Profile">
+                    <i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/deepesh-patel-1b9747307/" target="_blank" rel="noopener"
+                    aria-label="Visit my LinkedIn Profile">
+                    <i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+        <p>© 2024 Goal Getters: The Ultimate Soccer Quiz Challenge.</p>
     </footer>
+    <!-- Font Awesome Kit -->
+    <script defer src="https://kit.fontawesome.com/49c5c9a8d4.js" crossorigin="anonymous"></script>
     <script>
         function startQuiz(category) {
             const username = document.getElementById('username').value;
@@ -46,32 +59,41 @@
                 return;
             }
             // Store username in localStorage
-            localStorage.setItem('quizUsername', username); 
+            localStorage.setItem('quizUsername', username);
             // Store category in localStorage
             localStorage.setItem('quizCategory', category);
             // Redirect to quiz page
             window.location.href = 'quiz.html';
         }
 
-        
+
         //Function to load high scores when the page loads
-        
+
         function loadHighScores() {
-            document.getElementById('english-highscore').textContent = localStorage.getItem('English Football Highscore') || 0;
-            document.getElementById('english-highscore-name').textContent = localStorage.getItem('English Football HighscoreName') || 'N/A';
+            document.getElementById('english-highscore').textContent = localStorage.getItem(
+                'English Football Highscore') || 0;
+            document.getElementById('english-highscore-name').textContent = localStorage.getItem(
+                'English Football HighscoreName') || 'N/A';
 
-            document.getElementById('spanish-highscore').textContent = localStorage.getItem('Spanish Football Highscore') || 0;
-            document.getElementById('spanish-highscore-name').textContent = localStorage.getItem('Spanish Football HighscoreName') || 'N/A';
+            document.getElementById('spanish-highscore').textContent = localStorage.getItem(
+                'Spanish Football Highscore') || 0;
+            document.getElementById('spanish-highscore-name').textContent = localStorage.getItem(
+                'Spanish Football HighscoreName') || 'N/A';
 
-            document.getElementById('italian-highscore').textContent = localStorage.getItem('Italian Football Highscore') || 0;
-            document.getElementById('italian-highscore-name').textContent = localStorage.getItem('Italian Football HighscoreName') || 'N/A';
+            document.getElementById('italian-highscore').textContent = localStorage.getItem(
+                'Italian Football Highscore') || 0;
+            document.getElementById('italian-highscore-name').textContent = localStorage.getItem(
+                'Italian Football HighscoreName') || 'N/A';
 
-            document.getElementById('continental-highscore').textContent = localStorage.getItem('Continental Football Highscore') || 0;
-            document.getElementById('continental-highscore-name').textContent = localStorage.getItem('Continental Football HighscoreName') || 'N/A';
+            document.getElementById('continental-highscore').textContent = localStorage.getItem(
+                'Continental Football Highscore') || 0;
+            document.getElementById('continental-highscore-name').textContent = localStorage.getItem(
+                'Continental Football HighscoreName') || 'N/A';
         }
 
         // Load high scores when the page loads
         window.onload = loadHighScores;
     </script>
 </body>
+
 </html>

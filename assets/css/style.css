@@ -129,17 +129,50 @@ a:hover {
 /* Footer Styles */
 footer {
     background-color: #1e90ff;
-    padding: 10px;
-    text-align: center;
     color: white;
+    padding: 10px 10px; /* Added padding for better spacing */
+    text-align: center;
+    font-size: 14px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allow content to wrap if needed */
+}
+
+footer #social-network {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px; /* Spacing between icons */
+}
+
+footer #social-network li {
+    display: inline-block;
+}
+
+footer #social-network li a {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+footer #social-network li a:hover {
+    color: #d1d1d1; /* Light gray hover effect */
 }
 
 footer p {
-    margin: 5px 0;
+    margin: 22px;
+    font-size: 14px;
+    text-align: right;
+    max-width: 70%; /* Limit width to prevent overflow */
+    word-wrap: break-word; /* Ensure long words are wrapped */
+    flex-grow: 1; /* Allow the text to grow within its available space */
 }
+
 
 /* High Score Display Styles */
 #quiz-selection p {
