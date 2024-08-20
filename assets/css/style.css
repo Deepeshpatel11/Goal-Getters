@@ -1,7 +1,11 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Russo+One&display=swap');
+
 /* General Styles for All Pages */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    /* Updated to use Russo One for body text */
+    font-family: 'Russo One', sans-serif; 
     background: url('../images/football-quiz-bg.jpeg') no-repeat center center fixed;
     background-size: cover;
     color: #333;
@@ -20,6 +24,8 @@ header {
 
 header h1 {
     margin: 0;
+    /* Updated to use Orbitron for headings */
+    font-family: 'Orbitron', sans-serif; 
 }
 
 header nav ul {
@@ -49,6 +55,8 @@ h2 {
     color: #fff;
     margin-bottom: 20px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    /* Updated to use Orbitron for headings */
+    font-family: 'Orbitron', sans-serif; 
 }
 
 p,
@@ -58,6 +66,8 @@ li {
     color: #f0f0f0;
     margin-bottom: 15px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    /* Updated to use Russo One for body text */
+    font-family: 'Russo One', sans-serif; 
 }
 
 ul {
@@ -111,6 +121,8 @@ a:hover {
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
+    /* Ensure buttons use Russo One */
+    font-family: 'Russo One', sans-serif; 
 }
 
 #quiz-selection button:hover {
@@ -203,6 +215,8 @@ footer p {
     max-width: 400px;
     cursor: pointer;
     font-size: 1.1em;
+    /* Ensure options use Russo One */
+    font-family: 'Russo One', sans-serif; 
     text-align: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     transition: background-color 0.3s, transform 0.3s;
