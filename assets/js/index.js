@@ -37,5 +37,9 @@ function loadHighScores() {
         'Continental Football HighscoreName') || 'N/A';
 }
 
+document.getElementById('username').addEventListener('input', function (e) {
+    this.value = this.value.replace(/\s/g, ''); // Remove any spaces
+});
+
 // Load high scores when the page loads
 window.onload = loadHighScores;

@@ -26,7 +26,7 @@
     <main class="container">
         <h2>Welcome to the Football Quiz!</h2>
         <p>Enter your name to start the quiz:</p>
-        <input type="text" id="username" placeholder="Your Name" required>
+        <input type="text" id="username" placeholder="Your Name" required pattern="^\S+$" title="No spaces allowed. Please enter a valid name.">
         <div id="quiz-selection">
             <button onclick="startQuiz('English Football')">English Football</button>
             <p>High Score: <span id="english-highscore">0</span> by <span id="english-highscore-name">N/A</span></p>
