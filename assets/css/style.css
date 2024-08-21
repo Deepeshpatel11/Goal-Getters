@@ -364,6 +364,65 @@ footer p {
     margin-bottom: 10px;
 }
 
+/* SweetAlert2 Custom Styles */
+.swal-popup {
+    font-family: 'Russo One', sans-serif; /* Match body text */
+    background-color: rgba(0, 0, 0, 0.7); /* Match container background */
+    color: #f0f0f0; /* Match main text color */
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #1e90ff;
+}
+
+.swal-title {
+    font-family: 'Orbitron', sans-serif; /* Match heading font */
+    color: #fff; /* White color for title text */
+    font-size: 1.8em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.swal-content {
+    font-family: 'Russo One', sans-serif;
+    color: #f0f0f0;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.swal-confirm-btn {
+    background-color: #1e90ff;
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.1em;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.swal-confirm-btn:hover {
+    background-color: #1c86ee;
+    transform: scale(1.05);
+}
+
+.swal-cancel-btn {
+    background-color: #ff6347;
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.1em;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.swal-cancel-btn:hover {
+    background-color: #ff4500;
+    transform: scale(1.05);
+}
+
+
 
 /* Media Queries for Larger Screens widths above 768px */
 @media (min-width: 768px) {

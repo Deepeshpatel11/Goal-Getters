@@ -16,7 +16,13 @@ function startQuiz(category) {
         Swal.fire({
             icon: 'warning',
             title: 'Oops...',
-            text: 'Please enter your name to start the quiz.'
+            text: 'Please enter your name to start the quiz.',
+            customClass: {
+                popup: 'swal-popup',
+                title: 'swal-title',
+                content: 'swal-content',
+                confirmButton: 'swal-confirm-btn',
+            }
         });
         return;
     }
@@ -178,7 +184,14 @@ function quitGame() {
         icon: 'warning',
         showCancelButton: true,
         confirmButtonText: 'Yes, quit!',
-        cancelButtonText: 'No, continue'
+        cancelButtonText: 'No, continue',
+        customClass: {
+            popup: 'swal-popup',
+            title: 'swal-title',
+            content: 'swal-content',
+            confirmButton: 'swal-confirm-btn',
+            cancelButton: 'swal-cancel-btn'
+        }
     }).then((result) => {
         if (result.isConfirmed) {
             clearInterval(timerInterval);
