@@ -12,7 +12,12 @@ let answeredQuestions = []; // Will store the user's answers and correct answers
 function startQuiz(category) {
     const username = document.getElementById('username').value;
     if (!username) {
-        alert('Please enter your name to start the quiz.');
+        // Replace the alert with SweetAlert2
+        Swal.fire({
+            icon: 'warning',
+            title: 'Oops...',
+            text: 'Please enter your name to start the quiz.'
+        });
         return;
     }
     localStorage.setItem('quizUsername', username); // Store username in localStorage
@@ -74,7 +79,7 @@ function loadNextQuestion() {
     if (questions.length > 0) { // Check if there are questions left
         const randomIndex = Math.floor(Math.random() * questions.length);
         const questionData = questions.splice(randomIndex, 1)[0]; // Remove and get a random question
-        
+
         document.getElementById('question-text').textContent = questionData.question;
 
         const optionsContainer = document.getElementById('options-container');
@@ -167,10 +172,19 @@ function endQuiz() {
  * Function to quit the quiz and return to the main menu
  */
 function quitGame() {
-    if (confirm("Are you sure you want to quit the game?")) {
-        clearInterval(timerInterval);
-        returnToMainMenu();
-    }
+    Swal.fire({
+        title: 'Are you sure?',
+        text: "Do you really want to quit the game?",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Yes, quit!',
+        cancelButtonText: 'No, continue'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            clearInterval(timerInterval);
+            returnToMainMenu();
+        }
+    });
 }
 
 /**

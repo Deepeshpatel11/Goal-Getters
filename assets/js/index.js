@@ -1,7 +1,12 @@
 function startQuiz(category) {
     const username = document.getElementById('username').value;
     if (!username) {
-        alert('Please enter your name to start the quiz.');
+        // Replace the alert with SweetAlert2
+        Swal.fire({
+            icon: 'warning',
+            title: 'Oops...',
+            text: 'Please enter your name to start the quiz.'
+        });
         return;
     }
     // Store username in localStorage
