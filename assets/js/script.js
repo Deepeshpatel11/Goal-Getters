@@ -123,7 +123,7 @@ function checkAnswer(selectedOption, correctAnswer, questionText) {
         score++;
         event.target.style.backgroundColor = "green"; // Correct answer feedback
     } else {
-        event.target.style.backgroundColor = "red"; // Incorrect answer feedback
+        event.target.style.backgroundColor = "grey"; // Incorrect answer feedback
     }
     document.getElementById('score').textContent = score;
 

@@ -232,12 +232,12 @@ footer p {
 /* Theme for English Football (White and Red - English Flag Colors) */
 .theme-english {
     background-color: #ffffff;
-    color: #d40000;
+    color: #ff0000;;
 }
 
 .theme-english .container {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #d40000;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #ec0404;
 }
 
 .theme-english .container h2,
@@ -246,14 +246,14 @@ footer p {
 .theme-english .container li,
 .theme-english .container a {
     /* Red text color for English theme */
-    color: #d40000;
+    color: #ec0404;
 }
 
 /* Style options specifically for the English Football theme */
 .theme-english #options-container button {
-    background-color: #d40000;
+    background-color: #ec0404;;
     color: #ffffff;
-    border: 2px solid #d40000;
+    border: 2px solid #ec0404;;
 }
 
 .theme-english #options-container button:hover {
