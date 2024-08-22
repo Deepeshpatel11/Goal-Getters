@@ -84,6 +84,10 @@ header nav ul li {
         display: none;
     }
 
+    header > label {
+        margin-top: 5px;
+    }
+
     #nav-toggle:checked + .nav-toggle-label + nav ul {
         display: flex;
         flex-direction: column;
