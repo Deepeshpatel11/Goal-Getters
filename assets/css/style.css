@@ -4,7 +4,6 @@
 /* General Styles for All Pages */
 body {
     margin: 0;
-    /* Updated to use Russo One for body text */
     font-family: 'Russo One', sans-serif; 
     background: url('../images/football-quiz-bg.jpeg') no-repeat center center fixed;
     background-size: cover;
@@ -20,38 +19,93 @@ header {
     padding: 10px;
     text-align: center;
     color: white;
+    position: relative;
 }
 
 header h1 {
     margin: 0;
-    /* Updated to use Orbitron for headings */
     font-family: 'Orbitron', sans-serif; 
 }
 
+/* Mobile Navigation Styles */
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 1001;
+}
+
 header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-color: #1e90ff;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
 }
 
 header nav ul li {
-    margin: 5px 10px;
+    margin: 10px 0;
 }
 
-header nav ul li a {
-    color: white;
-    text-decoration: none;
+#nav-toggle:checked + .nav-toggle-label + nav ul {
+    height: auto; /* Opens the dropdown when checked */
 }
 
-header nav ul li a:hover {
-    text-decoration: underline;
-}
+@media (max-width: 768px) {
+    .nav-toggle-label {
+        display: block;
+    }
 
-.active {
-    border-top: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
+    header nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #1e90ff;
+        z-index: 1000;
+        display: none;
+    }
+
+    #nav-toggle:checked + .nav-toggle-label + nav ul {
+        display: flex;
+        flex-direction: column;
+        height: auto; /* Opens the dropdown when checked */
+    }
+
+    header nav ul li {
+        margin: 15px 0;
+    }
+
+    header nav ul li a {
+        font-size: 1.3em; /* Larger text for easier tapping */
+        color: white;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+
+    header nav ul li a:hover {
+        background-color: #1c86ee;
+    }
 }
 
 /* Main Content Text Styling */
@@ -60,7 +114,6 @@ h2 {
     color: #fff;
     margin-bottom: 20px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    /* Updated to use Orbitron for headings */
     font-family: 'Orbitron', sans-serif; 
 }
 
@@ -71,7 +124,6 @@ li {
     color: #f0f0f0;
     margin-bottom: 15px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    /* Updated to use Russo One for body text */
     font-family: 'Russo One', sans-serif; 
 }
 
@@ -126,7 +178,6 @@ a:hover {
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
-    /* Ensure buttons use Russo One */
     font-family: 'Russo One', sans-serif; 
 }
 
@@ -147,7 +198,7 @@ a:hover {
 footer {
     background-color: #1e90ff;
     color: white;
-    padding: 10px 10px; /* Added padding for better spacing */
+    padding: 10px 10px; 
     text-align: center;
     font-size: 14px;
     position: fixed;
@@ -156,7 +207,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; /* Allow content to wrap if needed */
+    flex-wrap: wrap;
 }
 
 footer #social-network {
@@ -164,7 +215,7 @@ footer #social-network {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 15px; /* Spacing between icons */
+    gap: 15px;
 }
 
 footer #social-network li {
@@ -178,18 +229,17 @@ footer #social-network li a {
 }
 
 footer #social-network li a:hover {
-    color: #d1d1d1; /* Light gray hover effect */
+    color: #d1d1d1; 
 }
 
 footer p {
     margin: 22px;
     font-size: 14px;
     text-align: right;
-    max-width: 70%; /* Limit width to prevent overflow */
-    word-wrap: break-word; /* Ensure long words are wrapped */
-    flex-grow: 1; /* Allow the text to grow within its available space */
+    max-width: 70%;
+    word-wrap: break-word; 
+    flex-grow: 1; 
 }
-
 
 /* High Score Display Styles */
 #quiz-selection p {
@@ -220,7 +270,6 @@ footer p {
     max-width: 400px;
     cursor: pointer;
     font-size: 1.1em;
-    /* Ensure options use Russo One */
     font-family: 'Russo One', sans-serif; 
     text-align: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -250,15 +299,13 @@ footer p {
 .theme-english .container ul,
 .theme-english .container li,
 .theme-english .container a {
-    /* Red text color for English theme */
     color: #ec0404;
 }
 
-/* Style options specifically for the English Football theme */
 .theme-english #options-container button {
-    background-color: #ec0404;;
+    background-color: #ec0404;
     color: #ffffff;
-    border: 2px solid #ec0404;;
+    border: 2px solid #ec0404;
 }
 
 .theme-english #options-container button:hover {
@@ -281,11 +328,9 @@ footer p {
 .theme-spanish .container ul,
 .theme-spanish .container li,
 .theme-spanish .container a {
-    /* Yellow text color for Spanish theme */
     color: #ffc400;
 }
 
-/* Style options specifically for the Spanish Football theme */
 .theme-spanish #options-container button {
     background-color: #ffc400;
     color: #c60b1e;
@@ -312,11 +357,9 @@ footer p {
 .theme-italian .container ul,
 .theme-italian .container li,
 .theme-italian .container a {
-    /* White text color for Italian theme */
     color: #ffffff;
 }
 
-/* Style options specifically for the Italian Football theme */
 .theme-italian #options-container button {
     background-color: #CD212A;
     color: #ffffff;
@@ -343,11 +386,9 @@ footer p {
 .theme-continental .container ul,
 .theme-continental .container li,
 .theme-continental .container a {
-    /* Yellow text color for Continental theme */
     color: #ffcc00;
 }
 
-/* Style options specifically for the Continental Football theme */
 .theme-continental #options-container button {
     background-color: #ffcc00;
     color: #003399;
@@ -360,9 +401,9 @@ footer p {
 
 /* Ensure the summary section is scrollable if it exceeds a certain height */
 #summary-container {
-    max-height: 400px; /* Adjust this value based on your layout */
+    max-height: 400px; 
     overflow-y: auto;
-    padding-right: 10px; /* To accommodate the scrollbar */
+    padding-right: 10px;
 }
 
 #summary-container .question-summary {
@@ -371,17 +412,17 @@ footer p {
 
 /* SweetAlert2 Custom Styles */
 .swal-popup {
-    font-family: 'Russo One', sans-serif; /* Match body text */
-    background-color: rgba(0, 0, 0, 0.7); /* Match container background */
-    color: #f0f0f0; /* Match main text color */
+    font-family: 'Russo One', sans-serif; 
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #f0f0f0;
     border-radius: 10px;
     text-align: center;
     border: 2px solid #1e90ff;
 }
 
 .swal-title {
-    font-family: 'Orbitron', sans-serif; /* Match heading font */
-    color: #fff; /* White color for title text */
+    font-family: 'Orbitron', sans-serif; 
+    color: #fff;
     font-size: 1.8em;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
@@ -427,8 +468,6 @@ footer p {
     transform: scale(1.05);
 }
 
-
-
 /* Media Queries for Larger Screens widths above 768px */
 @media (min-width: 768px) {
     header h1 {
@@ -441,8 +480,36 @@ footer p {
         font-size: 1.5em;
     }
 
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header nav ul {
+        display: flex;
+        position: static;
+        height: auto;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    header nav ul li {
+        margin: 5px 10px;
+    }
+
+    header nav ul li a {
+        font-size: 1em;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .active {
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+    }
+
     #quiz-selection button {
-        /* Maintain full width on larger screens */
         width: 100%;
         margin: 10px 0;
         font-size: 16px;
@@ -467,7 +534,6 @@ footer p {
     #options-container div {
         margin: 10px;
         width: calc(50% - 20px);
-        /* Adjust width for two items per row */
         max-width: 300px;
     }
 }
@@ -499,6 +565,4 @@ footer p {
     button {
         margin: 20px 0;
     }
-
-
 }
