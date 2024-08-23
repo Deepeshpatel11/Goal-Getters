@@ -149,7 +149,7 @@ The "About Me" page provides a personal touch to the website, giving users insig
 
 The 404 error page is designed to handle any incorrect URLs entered by users. It displays a friendly error message and offers links back to the home page, ensuring that users can easily navigate back to the main content of the site.
 
-![404 Error Page](to add)
+![404 Error Page](assets/images/readme-img/404-ss.png)
 
 #### Future Implementations
 
