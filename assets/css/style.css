@@ -414,6 +414,27 @@ footer p {
     margin-bottom: 10px;
 }
 
+/* Return to Main Menu Button */
+#return-main-btn {
+    background-color: #1e90ff; /* Default blue color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-family: 'Russo One', sans-serif; /* Consistent font */
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 20px; /* Adds spacing above the button */
+}
+
+#return-main-btn:hover {
+    background-color: #1c86ee;
+    transform: scale(1.05);
+}
+
 /* SweetAlert2 Custom Styles */
 .swal-popup {
     font-family: 'Russo One', sans-serif; 
