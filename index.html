@@ -4,7 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta Tags for SEO -->
+    <meta name="description"
+        content="Test your footballing knowledge with Goal Getters: The Ultimate Soccer Quiz Challenge. Play quizzes on English, Spanish, Italian, and Continental Football, and track your high scores.">
+    <meta name="keywords"
+        content="Football Quiz, Soccer Quiz, Goal Getters, English Football Quiz, Spanish Football Quiz, Italian Football Quiz, Continental Football Quiz, Sports Trivia">
+    <meta name="author" content="Deepesh Patel">
+    <meta name="robots" content="index, follow">
+    <!-- Title for website -->
     <title>Goal Getters - Home</title>
+    <!-- Link to CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon-io/apple-touch-icon.png">
@@ -28,7 +38,8 @@
     <main class="container">
         <h2>Welcome to the Football Quiz!</h2>
         <p>Enter your name to start the quiz:</p>
-        <input type="text" id="username" placeholder="Your Name" required pattern="^\S+$" title="No spaces allowed. Please enter a valid name.">
+        <input type="text" id="username" placeholder="Your Name" required pattern="^\S+$"
+            title="No spaces allowed. Please enter a valid name.">
         <div id="quiz-selection">
             <button onclick="startQuiz('English Football')">English Football</button>
             <p>High Score: <span id="english-highscore">0</span> by <span id="english-highscore-name">N/A</span></p>
