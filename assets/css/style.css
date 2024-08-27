@@ -164,6 +164,24 @@ a:hover {
     position: relative;
 }
 
+/* Styling for Profile Image in About Me Page */
+.profile-img {
+    display: block;
+    margin: 20px auto;
+    width: 150px; 
+    height: auto; 
+    border-radius: 50%; 
+    border: 3px solid #1e90ff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    /* Slightly enlarges the image on hover */
+    transform: scale(1.1); 
+}
+
+
 /* Button Container for Index Page */
 #quiz-selection {
     display: flex;
