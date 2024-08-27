@@ -255,6 +255,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 | 6 | The header was not responsive to mobile phone screen sizes. | I added a drop-down burger icon which would create a drop-down menu for mobile screen sizes. |
 | 7 | The implemented summary page on quiz ending was overflowing out of the container. | Using CSS, I added an overflow property to the element to fix this bug. |
 | 8 | The name input would allow blank space to start the quiz on index.html. | I corrected this using validation to the username to disallow spaces. I also added JS code to ensure real-time validation and allow valid characters. |
+| 9 | On JSHint check of JS code on both index.js and script.js, it flagged the use of unused variables | On review with mentor, I was advised to change these functions to event listeners. I updated the code to make these changes. |
 
 ### Known Bugs
 
