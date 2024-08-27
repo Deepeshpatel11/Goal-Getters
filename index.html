@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- Meta Tags for SEO -->
     <meta name="description"
         content="Test your footballing knowledge with Goal Getters: The Ultimate Soccer Quiz Challenge. Play quizzes on English, Spanish, Italian, and Continental Football, and track your high scores.">
@@ -41,26 +40,26 @@
         <input type="text" id="username" placeholder="Your Name" required pattern="^\S+$"
             title="No spaces allowed. Please enter a valid name.">
         <div id="quiz-selection">
-            <button onclick="startQuiz('English Football')">English Football</button>
+            <button id="start-quiz-btn" data-category="English Football">English Football</button>
             <p>High Score: <span id="english-highscore">0</span> by <span id="english-highscore-name">N/A</span></p>
 
-            <button onclick="startQuiz('Spanish Football')">Spanish Football</button>
+            <button id="start-quiz-btn" data-category="Spanish Football">Spanish Football</button>
             <p>High Score: <span id="spanish-highscore">0</span> by <span id="spanish-highscore-name">N/A</span></p>
 
-            <button onclick="startQuiz('Italian Football')">Italian Football</button>
+            <button id="start-quiz-btn" data-category="Italian Football">Italian Football</button>
             <p>High Score: <span id="italian-highscore">0</span> by <span id="italian-highscore-name">N/A</span></p>
 
-            <button onclick="startQuiz('Continental Football')">Continental Football</button>
+            <button id="start-quiz-btn" data-category="Continental Football">Continental Football</button>
             <p>High Score: <span id="continental-highscore">0</span> by <span id="continental-highscore-name">N/A</span>
             </p>
         </div>
     </main>
     <footer>
         <ul id="social-network">
-            <li><a href="https://github.com/Deepeshpatel11" target="_blank" rel="noopener"
+            <li><a href="https://github.com/Deepeshpatel11" target="_blank" rel="noopener noreferrer"
                     aria-label="Visit my GitHub Profile">
                     <i class="fa-brands fa-github"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/deepesh-patel-1b9747307/" target="_blank" rel="noopener"
+            <li><a href="https://www.linkedin.com/in/deepesh-patel-1b9747307/" target="_blank" rel="noopener noreferrer"
                     aria-label="Visit my LinkedIn Profile">
                     <i class="fa-brands fa-linkedin"></i></a></li>
         </ul>

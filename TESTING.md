@@ -70,7 +70,7 @@ About me page result:
 
 404 error page result:
 
-![404.html]()
+![404.html](assets/images/readme-img/404-lighthouse-desktop.png)
 
 #### Mobile Results
 
@@ -92,7 +92,7 @@ About me page result:
 
 404 error page result:
 
-![404.html]()
+![404.html](assets/images/readme-img/404-lighthouse-phone.png)
 
 ---
 

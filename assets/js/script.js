@@ -1,35 +1,9 @@
 // Global Variables for quiz
 let questions = []; // Will hold the quiz questions
-let currentQuestionIndex = 0; // Tracks the current question number
 let score = 0; // Tracks the user's score
 let timeLeft = 3 * 60; // 3 minutes in seconds
 let timerInterval; // Will hold the timer interval ID
 let answeredQuestions = []; // Will store the user's answers and correct answers
-
-/**
- * Function to start the quiz from index.html 
- */
-function startQuiz(category) {
-    const username = document.getElementById('username').value;
-    if (!username) {
-        // Replace the alert with SweetAlert2
-        Swal.fire({
-            icon: 'warning',
-            title: 'Oops...',
-            text: 'Please enter your name to start the quiz.',
-            customClass: {
-                popup: 'swal-popup',
-                title: 'swal-title',
-                content: 'swal-content',
-                confirmButton: 'swal-confirm-btn',
-            }
-        });
-        return;
-    }
-    localStorage.setItem('quizUsername', username); // Store username in localStorage
-    localStorage.setItem('quizCategory', category); // Store category in localStorage
-    window.location.href = 'quiz.html'; // Redirect to quiz page
-}
 
 /**
  * Function to load questions and start the quiz in quiz.html
@@ -45,10 +19,13 @@ function loadQuestions() {
         .then(response => response.json())
         .then(data => {
             const selectedCategory = data.find(q => q.category === category);
-            if (selectedCategory) {
+            if (selectedCategory && selectedCategory.questions.length) {
                 questions = shuffleArray(selectedCategory.questions); // Shuffle the questions initially
                 loadNextQuestion(); // Load the first question initially
                 startTimer(); // Start the quiz timer
+            } else {
+                console.error('No questions found for the selected category.');
+                window.location.href = '404.html'; // Redirect to the 404 page if no questions are found
             }
         })
         .catch(error => {
@@ -62,20 +39,17 @@ function loadQuestions() {
  */
 function applyTheme(category) {
     const body = document.body;
+    const themes = ['theme-english', 'theme-spanish', 'theme-italian', 'theme-continental'];
+    body.classList.remove(...themes);
 
-    // Clear any existing theme classes
-    body.classList.remove('theme-english', 'theme-spanish', 'theme-italian', 'theme-continental');
+    const themeMap = {
+        'English Football': 'theme-english',
+        'Spanish Football': 'theme-spanish',
+        'Italian Football': 'theme-italian',
+        'Continental Football': 'theme-continental'
+    };
 
-    // Apply the appropriate theme class
-    if (category === 'English Football') {
-        body.classList.add('theme-english');
-    } else if (category === 'Spanish Football') {
-        body.classList.add('theme-spanish');
-    } else if (category === 'Italian Football') {
-        body.classList.add('theme-italian');
-    } else if (category === 'Continental Football') {
-        body.classList.add('theme-continental');
-    }
+    body.classList.add(themeMap[category] || '');
 }
 
 /**
@@ -97,7 +71,7 @@ function loadNextQuestion() {
         shuffledOptions.forEach(option => {
             const button = document.createElement('button');
             button.textContent = option;
-            button.onclick = () => checkAnswer(option, questionData.answer, questionData.question);
+            button.onclick = (event) => checkAnswer(event, option, questionData.answer, questionData.question);
             optionsContainer.appendChild(button);
         });
     } else {
@@ -108,7 +82,7 @@ function loadNextQuestion() {
 /**
  * Function to check the user's answer, provide feedback, and store the result
  */
-function checkAnswer(selectedOption, correctAnswer, questionText) {
+function checkAnswer(event, selectedOption, correctAnswer, questionText) {
     const isCorrect = selectedOption === correctAnswer;
 
     // Store the user's answer and the correct answer
@@ -177,7 +151,7 @@ function endQuiz() {
 /**
  * Function to quit the quiz and return to the main menu
  */
-function quitGame() {
+document.getElementById('quit-btn').addEventListener('click', function () {
     Swal.fire({
         title: 'Are you sure?',
         text: "Do you really want to quit the game?",
@@ -195,10 +169,17 @@ function quitGame() {
     }).then((result) => {
         if (result.isConfirmed) {
             clearInterval(timerInterval);
-            returnToMainMenu();
+            window.location.href = 'index.html';
         }
     });
-}
+});
+
+/**
+ * Event listener to return to the main menu from quiz.html
+ */
+document.getElementById('return-main-btn').addEventListener('click', function () {
+    window.location.href = 'index.html';
+});
 
 /**
  * Function to start the quiz timer
@@ -223,13 +204,6 @@ function displayTime() {
     const seconds = timeLeft % 60;
     const timerDisplay = document.getElementById('timer');
     timerDisplay.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
-}
-
-/**
- * Function to return to the main menu from quiz.html
- */
-function returnToMainMenu() {
-    window.location.href = 'index.html';
 }
 
 /**
