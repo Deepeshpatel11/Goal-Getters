@@ -56,18 +56,24 @@ In designing the football quiz website, I focused on creating a visually engagin
 * **Primary and Secondary Text Colours:**
     * I chose `#f0f0f0` (a light gray) for the primary text colour and `#333333` (dark gray) as the secondary text colour. These colours provide strong contrast against the darker background, enhancing readability and ensuring the text remains accessible on all devices.
 
+    ![Ligth Gray & Dark Gray](assets/images/readme-img/light-gray-dark-gray.png)
+
 * **Background and Overlay:**
     * The website features a football-themed background image that creates an immersive experience. To ensure that text and other elements stand out clearly against this background, I used `rgba(0, 0, 0, 0.7)` (a semi-transparent black) as an overlay. This overlay subtly darkens the background, allowing the content to be the focal point without diminishing the visual appeal of the background image.
 
 * **Interactive Elements:**
     * For interactive elements such as buttons and links, `#1e90ff` (Dodger blue) was used. This vibrant colour is consistent with the theme and draws attention to clickable areas, guiding users through the site.
 
+    ![Dodger Blue](assets/images/readme-img/dodger-blue.png)
+
 * **Theme-Specific Colours:**
     * Each quiz category has its distinct colour scheme, enhancing the thematic connection and user experience:
-        * English Football: Red `#ec0404` reflects the iconic colours associated with English football.
+        * English Football: Red `#ec0404` and White White `#ffffff` reflects the iconic colours associated with English football.
         * Spanish Football: Yellow `#ffc400` and Red `#c60b1e` evoke the colours of the Spanish flag.
-        * Italian Football: Green `#008C45` and Red `#CD212A`, corresponding to the Italian flag.
+        * Italian Football: Green `#008C45`, Red `#CD212A` and White `#ffffff`, corresponding to the Italian flag.
         * Continental Football: Blue `#003399` and Yellow `#ffcc00` represent the broader European football theme.
+
+    ![All Theme Colors](assets/images/readme-img/theme-colors.png)
 
 * **Feedback for Answers:**
     * To provide clear feedback during the quiz, I used `#ff6347` (Tomato red) for incorrect answers and `#1e90ff` (Dodger blue) for correct answers. These colours are chosen for their visibility and ease of differentiation, helping users immediately understand their performance.
