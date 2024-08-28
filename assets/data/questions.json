@@ -41,7 +41,7 @@
                 "answer": "Wanderers"
             },
             {
-                "question": "Which stadium hosted the first FA Cup final at the rebuilt Wembley Stadium in 2007?",
+                "question": "Which stadium hosted the FA Cup final in 2007?",
                 "options": ["Wembley Stadium", "Millennium Stadium", "Old Trafford", "Villa Park"],
                 "answer": "Wembley Stadium"
             },
@@ -62,8 +62,8 @@
             },
             {
                 "question": "Which club won the 2024 FA Cup?",
-                "options": ["Manchester City", "Arsenal", "Liverpool", "Chelsea"],
-                "answer": "Manchester City"
+                "options": ["Manchester City", "Arsenal", "Liverpool", "Manchester United"],
+                "answer": "Manchester United"
             },
             {
                 "question": "Who was the first Premier League player to score a hat-trick?",
@@ -82,7 +82,7 @@
             },
             {
                 "question": "Who was the first non-European player to win the Premier League Golden Boot?",
-                "options": ["Didier Drogba", "Dwight Yorke", "Mohamed Salah", "Sergio Agüero"],
+                "options": ["Didier Drogba", "Dwight Yorke", "Jimmy Floyd Hasselbaink", "Sergio Agüero"],
                 "answer": "Dwight Yorke"
             },
             {
@@ -232,8 +232,8 @@
             },
             {
                 "question": "Which player won the Premier League Golden Glove in 2024?",
-                "options": ["Alisson Becker", "Ederson", "Aaron Ramsdale", "David de Gea"],
-                "answer": "Ederson"
+                "options": ["Alisson Becker", "Ederson", "Aaron Ramsdale", "David Raya"],
+                "answer": "David Raya"
             },
             {
                 "question": "Which team won the FA Cup in 2023?",
@@ -252,7 +252,7 @@
             },
             {
                 "question": "Which player has the most Premier League assists as of 2024?",
-                "options": ["Ryan Giggs", "Cesc Fàbregas", "Frank Lampard", "David Silva"],
+                "options": ["Ryan Giggs", "Cesc Fàbregas", "Kevin De Bruyne", "Steven Gerrard"],
                 "answer": "Ryan Giggs"
             },
             {
@@ -298,12 +298,12 @@
             {
                 "question": "Which club won the first Community Shield match that ended in a penalty shootout?",
                 "options": ["Manchester United", "Arsenal", "Liverpool", "Chelsea"],
-                "answer": "Arsenal"
+                "answer": "Liverpool"
             },
             {
-                "question": "Who was the first manager to win the Premier League with two different clubs?",
-                "options": ["José Mourinho", "Sir Alex Ferguson", "Pep Guardiola", "Carlo Ancelotti"],
-                "answer": "José Mourinho"
+                "question": "Who was the first manager to win the League with two different clubs?",
+                "options": ["José Mourinho", "Herbert Champman", "Pep Guardiola", "Carlo Ancelotti"],
+                "answer": "Herbert Champman"
             },
             {
                 "question": "Which player was the first to score 100 goals for two different Premier League clubs?",
@@ -361,7 +361,7 @@
                 "answer": "Andrei Kanchelskis"
             },
             {
-                "question": "Which team was the first to win the Premier League after being promoted the previous season?",
+                "question": "Which team was the first to win the League after being promoted the previous season?",
                 "options": ["Nottingham Forest", "Leeds United", "Blackburn Rovers", "Ipswich Town"],
                 "answer": "Nottingham Forest"
             },
@@ -377,8 +377,8 @@
             },
             {
                 "question": "Which player scored the most goals in a single FA Cup season?",
-                "options": ["Ian Rush", "Clive Allen", "Dixie Dean", "Harry Kane"],
-                "answer": "Clive Allen"
+                "options": ["Ian Rush", "Clive Allen", "Ted MacDougall.", "Harry Kane"],
+                "answer": "Ted MacDougall."
             },
             {
                 "question": "Which team was the first to win the FA Cup without conceding a goal in the competition?",
@@ -427,8 +427,8 @@
             },
             {
                 "question": "Which player won the Premier League Golden Boot in the 1998-1999 season?",
-                "options": ["Michael Owen", "Dwight Yorke", "Jimmy Floyd Hasselbaink", "Nicolas Anelka"],
-                "answer": "Dwight Yorke"
+                "options": ["Michael Owen", "Dwight Yorke", "Jimmy Floyd Hasselbaink", "All 3 Players"],
+                "answer": "All 3 Players"
             },
             {
                 "question": "Which team won the Premier League title in the 2016-2017 season?",
@@ -446,14 +446,14 @@
                 "answer": "Chelsea"
             },
             {
-                "question": "Which player was the first to win the Premier League, FA Cup, and Champions League in the same season?",
-                "options": ["Ryan Giggs", "Steven Gerrard", "Frank Lampard", "Cristiano Ronaldo"],
-                "answer": "Ryan Giggs"
+                "question": "Which player from teh the options below was the first to win the Premier League, FA Cup, and Champions League in the same season?",
+                "options": ["Nicky Butt", "Steven Gerrard", "Ederson", "Cristiano Ronaldo"],
+                "answer": "Nicky Butt"
             },
             {
                 "question": "Which team was the first to win the Premier League after being relegated the previous season?",
-                "options": ["Leicester City", "Manchester City", "Newcastle United", "Blackburn Rovers"],
-                "answer": "Newcastle United"
+                "options": ["Leicester City", "Manchester City", "Newcastle United", "No club Has Achieved This"],
+                "answer": "No club Has Achieved This"
             },
             {
                 "question": "Which club won the most Premier League titles in the 1990s?",
@@ -1158,7 +1158,7 @@
             {
                 "question": "Which team won the first Premier League title after finishing outside the top four the previous season?",
                 "options": ["Leicester City", "Chelsea", "Manchester United", "Liverpool"],
-                "answer": "Chelsea"
+                "answer": "Leicester City"
             },
             {
                 "question": "Which club won the 2012 FA Cup?",
@@ -1498,7 +1498,7 @@
             {
                 "question": "Which player was the first to score a hat-trick in a Premier League season for three different clubs?",
                 "options": ["Nicolas Anelka", "Teddy Sheringham", "Robbie Keane", "Les Ferdinand"],
-                "answer": "Les Ferdinand"
+                "answer": "Teddy Sheringham"
             },
             {
                 "question": "Which club won the 2019 League Cup?",
@@ -1886,9 +1886,9 @@
                 "answer": "Erling Haaland"
             },
             {
-                "question": "Which player was the first to win the Premier League Golden Boot while playing for a relegated team?",
-                "options": ["Kevin Phillips", "Teddy Sheringham", "Andy Cole", "Harry Kane"],
-                "answer": "Teddy Sheringham"
+                "question": "Which club did Nicolas Anelka join when he moved from Arsenal in 1999, setting a then British transfer record?",
+                "options": ["Real Madrid", "Chelsea", "Manchester City", "Paris Saint-Germain"],
+                "answer": "Real Madrid"
             },
             {
                 "question": "Which team won the first Premier League title after not being top at Christmas?",
