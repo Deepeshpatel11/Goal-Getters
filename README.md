@@ -123,7 +123,7 @@ All pages on the website are responsive and include:
 
 * A favicon in the browser tab.
 
-  ![favicon](to add)
+  ![favicon](assets/images/readme-img/favicon-ss.png)
 
 * A dynamic navigation menu that becomes a dropdown on mobile devices (the second and third screenshots displayed below), ensuring ease of use on all screen sizes.
 
